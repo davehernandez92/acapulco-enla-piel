@@ -1,7 +1,23 @@
-import { Inter } from "next/font/google";
+import { Inter, Ubuntu } from "next/font/google";
 import "./globals.css";
+import Header from "./components/header";
+import Footer from "./components/footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ 
+  subsets: ['latin'],
+  variable: '--font-txt',
+  weight: ['300','400','500','700'],
+  style: ['normal'],
+  display: 'swap',
+ });
+
+export const headingFont = Ubuntu({
+  subsets: ['latin'],
+  variable: '--font-heading',
+  weight: ['400','500','700'],
+  style: ['normal'],
+  display: 'swap',
+})
 
 export const metadata = {
   title: "Create Next App",
@@ -10,8 +26,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={` ${headingFont.variable} ${inter.variable}`}>
+      <body>
+        <Header />
+        {children}
+        <Footer/>
+        
+      </body>
     </html>
   );
 }
