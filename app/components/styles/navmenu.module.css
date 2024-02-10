@@ -8,12 +8,12 @@
     width: 30px;
     height: 3px;
     background-color: #333;
-    margin: 6px 0;
+    margin: 4px 0;
     transition: 0.4s;
   }
   
   .hamburger__menu.open .bar:nth-child(1) {
-    transform: rotate(-45deg) translate(-13px, 6px);
+    transform: rotate(-45deg) translate(-10px, 1px);
   }
   
   .hamburger__menu.open .bar:nth-child(2) {
@@ -21,7 +21,7 @@
   }
   
   .hamburger__menu.open .bar:nth-child(3) {
-    transform: rotate(45deg) translate(-13px, -8px);
+    transform: rotate(45deg) translate(-13px, -7px);
   }
 
   .nav {
@@ -35,7 +35,12 @@
     height: 100vh;
     overflow-y: auto; 
     transition: top 0.33s ease; 
-    background-color: var(--primary);
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FEFEFE,#338fcc, #4d6997);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FEFEFE, #338fcc, #4d6997); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+
   }
   
   .nav.open {
@@ -44,6 +49,7 @@
   .nav a {
     color: var(--black);
     font-size: 1.6rem;
+    font-weight: 400;
   }
   .navDesk a{
     color: var(--black);

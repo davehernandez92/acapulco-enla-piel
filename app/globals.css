@@ -7,6 +7,7 @@
     --primary: hsl(41, 76%, 90%);
     --secondary:  hsl(14, 87%, 30%);
     --background: #fefefe;
+    --footerbg: #1e293b;
 
     --black: #03031b;
     --white: #fbfafa;
@@ -87,12 +88,15 @@
 }
 
 html {
-  background-color: var(--white);
+  background-color: var(--background);
   box-sizing: border-box;
   font-family: var(--font-txt);
 }
 h1{
-  font-size: 1.8rem;
+  font-size: 1.9rem;
+}
+h2{
+  font-size: 1.3rem;
 }
 
 h1,
@@ -112,4 +116,30 @@ p{
 img{
   width: 100%;
   height: auto;
+}
+.containerP{
+  padding: 3rem 1.2rem;
+}
+.containerX{
+  padding: 0 1.2rem;
+}
+.containerNav{
+  padding: 1rem 1.2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .containerP {
+    padding: 4rem 4rem 2rem 4rem;
+  }
+  .containerX{
+    padding: 0 4rem;
+  }
+  .containerNav{
+    padding: 1.3rem 4rem;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .containerNav{
+    padding: 2rem 4rem .1rem 4rem;
+  }
 }

@@ -1,9 +1,11 @@
+import { DestacadosCarousel } from "./components/destacados";
+import HeroSlider from "./components/heroSlide";
 
 export default function Home() {
   return (
-    <section className="container">
-      <h1>BIENVENIDO</h1>
-      <p>A este boilerplate </p>
+    <section >
+      <HeroSlider/>
+      <DestacadosCarousel/>
     </section>
   )
 }

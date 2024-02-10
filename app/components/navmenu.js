@@ -127,8 +127,8 @@ export function Navmenu() {
             </div>
 
             {/* TABLET AND DESKTOP NAV MENU  */}
-            <div className={`hidden md:flex w-full ${styles.navDesk}`}>
-                <Image className="w-auto h-auto" src={logo} alt="Logo Acapulco en la Piel" width={50} height={50} />
+            <div className={`hidden md:flex w-full  ${styles.navDesk}`}>
+                <Link href={'/'}><Image className="w-auto h-auto" src={logo} alt="Logo Acapulco en la Piel" width={60} height={60} /></Link>
                 <NavigationMenu>
                     <NavigationMenuList>
                         <NavigationMenuItem>

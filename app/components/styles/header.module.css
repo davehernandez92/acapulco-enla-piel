@@ -2,11 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    
     color: #fff;
+    
   }
   
   .logo img {
-    width: 100px; /* Adjust the width as needed */
+    width: 100px; 
+    height: auto;
   }

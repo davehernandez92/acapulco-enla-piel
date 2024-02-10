@@ -9,7 +9,7 @@ const Header = () => {
   
 
   return (
-    <nav className={styles.navbar}>
+    <nav className='containerNav'>
       
       <Navmenu/>
       

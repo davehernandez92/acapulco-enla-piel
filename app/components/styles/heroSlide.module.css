@@ -1,0 +1,45 @@
+.slider__div{
+    height: auto;
+    width: 100%;
+    
+    
+}
+.slider__img {
+    height: auto;
+    min-width: 100%;
+    margin: 2rem 0;
+    border-radius: 18px;
+}
+
+.heading {
+   
+    font-weight: 600;
+    width: 100%;
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .slider__imgDesk {
+        height: auto;
+        
+        margin: 2rem auto;
+        border-radius: 18px;
+    }
+    .slider__heading{
+        color: var(--white);
+        font-size: 4.5rem;
+    }
+    .logo{
+        min-width: 180px;
+        height: auto;
+    }
+}
+@media screen and (min-width: 1020px) {
+
+    .heading {
+   
+        font-weight: 600;
+        width: 100%;
+        font-size: 3rem;
+    }
+}
