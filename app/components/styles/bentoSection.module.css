@@ -1,0 +1,122 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+.card__horizontal {
+    position: relative;
+}
+.card__Sq {
+    position: relative;
+}
+.card__txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 4px;
+    padding-bottom: 1rem;
+}
+
+.card__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.card__txt h2{
+    font-size: 1.5rem;
+    color: var(--white);
+    font-weight: 500;
+}
+.card__txt p{
+    color: var(--white);
+    
+}
+.card__txt a{
+    margin-top: 1rem;
+    color: var(--white);
+    width: 40%;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .wrapper {
+        grid-template-columns: 2fr 1fr;
+        
+      }
+      .img__horizontal {
+        height: 100%;
+      }
+}
+@media screen and (min-width: 1020px) {
+    
+    .card__horizontal{
+        overflow: hidden;
+    }
+    .grid__visita{
+        overflow: hidden;
+    }
+    .img__horizontal {
+        transition: all 0.3s ease-in;
+      }
+      
+      .card__horizontal:hover .img__horizontal {
+        transform: scale(1.02);
+      }
+      .grid__visita:hover .img__horizontal {
+        transform: scale(1.02);
+      }
+    .card__Sq{
+        overflow: hidden;
+    }
+    .img__sq {
+        transition: all 0.3s ease-in;
+      }
+      
+      .card__Sq:hover .img__sq {
+        transform: scale(1.02);
+      }
+      .card__txt{
+        padding: 0 0 1.8rem 1.8rem;
+      }
+      .merca__txt{
+        padding: 0 1rem 1.8rem 1rem ;
+      }
+    
+    .card__txt h2{
+        font-size: 2.8rem;
+        
+    }
+    .card__txt p{
+        color: var(--white);
+        
+    }
+    .card__txt a{
+        
+        width: 120px;
+    }
+
+    .grid__wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr  ;
+        grid-template-areas:
+        "merca visita visita"
+        "merca visita visita"
+        "merca servicio servicio";
+    }
+    .grid__merca{
+        grid-area: merca;
+    }
+    .grid__visita{
+        grid-area: visita;
+    }
+    .servicios{
+        grid-area: servicio;
+        justify-content: flex-end;
+        
+
+    }
+
+   
+}

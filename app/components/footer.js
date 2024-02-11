@@ -41,7 +41,7 @@ export default function Footer() {
 
         <div className={` ${styles.menu__footer}`}>
           <ul>
-            <motion.li whileTap={{ borderBottom: '2px solid #fefefe' }} ><Link target='blank' href={'/inicio'}>Inicio</Link></motion.li>
+            <motion.li whileTap={{ borderBottom: '2px solid #fefefe' }} ><Link target='blank' href={'/'}>Inicio</Link></motion.li>
             <motion.li whileTap={{ borderBottom: '2px solid #fefefe' }}><Link target='blank' href={'/hoteles'}>Hoteles</Link></motion.li>
             <motion.li whileTap={{ borderBottom: '2px solid #fefefe' }}><Link target='blank' href={'/restaurantes'}>Restaurantes</Link></motion.li>
             <motion.li whileTap={{ borderBottom: '2px solid #fefefe' }}><Link target='blank' href={'/servicios'}>Servicios</Link></motion.li>
