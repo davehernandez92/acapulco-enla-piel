@@ -18,9 +18,9 @@ export default function Footer() {
       }} viewport={{ once: true }}
       className={`containerP flex flex-col gap-4 mt-8 py-16 px-5 w-full md:px10 ${styles.footer}`}>
       <div className={` ${styles.colab}`}>
-        <h2>¿Te interesa colaborar?</h2>
+        <h2>¿Quieres ver aquí tu negocio?</h2>
         <motion.div className={styles.contacto__btn} whileTap={{ border: 'indigo' }}>
-          <Link href={'/contacto'}>Contactanos.</Link>
+          <Link href={'/contacto'}>¡Contactanos!</Link>
 
         </motion.div>
       </div>
@@ -41,17 +41,17 @@ export default function Footer() {
 
         <div className={` ${styles.menu__footer}`}>
           <ul>
-            <motion.li whileTap={{ borderBottom: '2px solid #fefefe' }} ><Link target='blank' href={'/'}>Inicio</Link></motion.li>
-            <motion.li whileTap={{ borderBottom: '2px solid #fefefe' }}><Link target='blank' href={'/hoteles'}>Hoteles</Link></motion.li>
-            <motion.li whileTap={{ borderBottom: '2px solid #fefefe' }}><Link target='blank' href={'/restaurantes'}>Restaurantes</Link></motion.li>
-            <motion.li whileTap={{ borderBottom: '2px solid #fefefe' }}><Link target='blank' href={'/servicios'}>Servicios</Link></motion.li>
-            <motion.li whileTap={{ borderBottom: '2px solid #fefefe' }}><Link target='blank' href={'/visita'}>Visita</Link></motion.li>
-            <motion.li whileTap={{ borderBottom: '2px solid #fefefe' }}><Link target='blank' href={'/mercancia'}>Mercancia</Link></motion.li>
-            <motion.li whileTap={{ borderBottom: '2px solid #fefefe' }}><Link target='blank' href={'/contacto'}>Contacto</Link></motion.li>
+            <motion.li whileTap={{ borderBottom: '2px solid #fefefe' }} ><Link href={'/'}>Inicio</Link></motion.li>
+            <motion.li whileTap={{ borderBottom: '2px solid #fefefe' }}><Link href={'/hoteles'}>Hoteles</Link></motion.li>
+            <motion.li whileTap={{ borderBottom: '2px solid #fefefe' }}><Link href={'/restaurantes'}>Restaurantes</Link></motion.li>
+            <motion.li whileTap={{ borderBottom: '2px solid #fefefe' }}><Link href={'/servicios'}>Servicios</Link></motion.li>
+            <motion.li whileTap={{ borderBottom: '2px solid #fefefe' }}><Link href={'/visita'}>Visita</Link></motion.li>
+            <motion.li whileTap={{ borderBottom: '2px solid #fefefe' }}><Link href={'/mercancia'}>Mercancia</Link></motion.li>
+            <motion.li whileTap={{ borderBottom: '2px solid #fefefe' }}><Link href={'/contacto'}>Contacto</Link></motion.li>
           </ul>
         </div>
 
-        <Image className={`hidden md:block w-auto h-full ${styles.logo}`} src={logo} width={150} height={150} alt='Logo Acapulco'/>
+        <Image className={`hidden md:block w-auto h-full ${styles.logo}`} src={logo} width={100} height={100} alt='Logo Acapulco'/>
       </div>
 
       <span className={`md:hidden ${styles.divider}`} />

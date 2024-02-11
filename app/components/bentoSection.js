@@ -141,7 +141,7 @@ export default function BentoSection() {
                     />
                     <div className={`absolute bottom-0 left-0 w-full h-full bg-black bg-opacity-50 rounded-2xl ${styles.card__overlay}`}>
                         <div className={`w-full h-full p-3 ${styles.card__txt}`}>
-                            <h2>Otis</h2>
+                            <h2>OTIS</h2>
                             <p>Te contamos nuestra experiencia</p>
                             <Link href={'/hoteles'} className={buttonVariants({ variant: "outline" })}>Ver más</Link>
                         </div>

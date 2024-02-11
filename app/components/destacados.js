@@ -57,7 +57,7 @@ export function DestacadosCarousel() {
     
    
     
-    <div className="py-[3rem] md:px-[4rem] md:py-[4rem] md:mx-5 lg:mx-2 lg:w-full">
+    <div className="py-[3rem] md:px-[4rem] md:py-[4rem]  lg:px-[7rem] lg:w-full ">
 
     <Carousel
       opts={{
