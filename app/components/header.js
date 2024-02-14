@@ -136,7 +136,7 @@ const Header = () => {
                                     transition: { delay: 0.33, duration: 0.3 },
                                 }}
                             >
-                                <Link href={'/visita'}>
+                                <Link onClick={toggleMenu} href={'/visita'}>
                                     Visita
                                 </Link>
                             </motion.li>
