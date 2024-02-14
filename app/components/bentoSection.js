@@ -87,7 +87,7 @@ export default function BentoSection() {
                             <h2>Visita</h2>
                             <p>¡Checa estos lugares!</p>
                             <p>¡No te los pierdas!</p>
-                            <Link href={'/hoteles'} className={buttonVariants({ variant: "outline" })}>Ver más</Link>
+                            <Link href={'/visita'} className={buttonVariants({ variant: "outline" })}>Ver más</Link>
                         </div>
                     </div>
                 </div>
@@ -143,7 +143,7 @@ export default function BentoSection() {
                         <div className={`w-full h-full p-3 ${styles.card__txt}`}>
                             <h2>OTIS</h2>
                             <p>Te contamos nuestra experiencia</p>
-                            <Link href={'/hoteles'} className={buttonVariants({ variant: "outline" })}>Ver más</Link>
+                            <Link href={'/otis'} className={buttonVariants({ variant: "outline" })}>Ver más</Link>
                         </div>
                     </div>
                 </div>

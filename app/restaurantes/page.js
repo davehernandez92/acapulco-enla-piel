@@ -57,7 +57,7 @@ export default function ResturantePage() {
           width={1650}
           height={729}
           alt='Imagen de Comida en Acapulco Guerrero'
-          className='hidden md:block rounded-2xl lg:max-h-[720px]'
+          className='hidden md:block md:pt-5 md:rounded-md   lg:max-h-[720px] w-full pt-10'
         />
         <Image
           src={restMobile}
