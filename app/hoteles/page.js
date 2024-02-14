@@ -2,11 +2,24 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { HiOutlineMapPin } from "react-icons/hi2";
+
 import hotelSq from '@/public/images/hotelSquare.webp'
 import hotel from '@/public/images/hoteles.webp'
 import nautilus from '@/public/images/hoteles/nautilus/1.webp'
 import olimar from '@/public/images/hoteles/olimar/1.webp'
-import styles from '../styles/hoteles.modules.css'
+import puertoAngel from '@/public/images/hoteles/bungalosPangel/1.jpg'
+import olivares from '@/public/images/hoteles/BUNGALOWS OLIVARES/1.jpg'
+import carlisa from '@/public/images/hoteles/HOTEL CARLISA/1.jpg'
+import sol from '@/public/images/hoteles/donde mira el sol/1.jpg'
+import delValle from '@/public/images/hoteles/HOTEL DEL VALLE/1.jpg'
+import laJungla from '@/public/images/hoteles/HOTEL LA JUNGLA/1.jpg'
+import miramar from '@/public/images/hoteles/HOTEL MIRAMAR/1.jpg'
+import rove from '@/public/images/hoteles/HOTEL ROVE/1.jpg'
+import reyes from '@/public/images/hoteles/HOTEL DE LOS REYES/1.jpg'
+import vicky from '@/public/images/hoteles/SUITES VICKY/1.jpg'
+import styles from '../styles/hoteles.module.css'
+
+
 
 export default function Hotelpage() {
   const hoteles = [
@@ -32,63 +45,100 @@ export default function Hotelpage() {
 
     },
     {
-      title: 'Villas Nautilus',
-      image: nautilus,
-      alt: 'Imagen de Villas Nautilus',
+      title: 'Hotel Donde mira el sol',
+      image: sol,
+      alt: 'Imagen de Hotel donde mira el sol',
       zona: 'Zona centro',
       type: 'Hotel',
-      url: '/hoteles/nautilus'
+      url: '/hoteles/dondeMiraElSol'
 
     },
     {
-      title: 'Hotel Olimar',
-      image: olimar,
-      alt: 'Imagen del Hotel Olimar',
+      title: 'Hotel Carlisa',
+      image: carlisa,
+      alt: 'Imagen del Hotel Carlisa',
       zona: 'Zona centro',
       type: 'Hotel',
-      url: '/hoteles/olimar'
+      url: '/hoteles/carlisa'
 
     },
     {
-      title: 'Villas Nautilus',
-      image: nautilus,
-      alt: 'Imagen de Villas Nautilus',
+      title: 'Hotel Rove',
+      image: rove,
+      alt: 'Imagen de Hotel Rove',
       zona: 'Zona centro',
       type: 'Hotel',
-      url: '/hoteles/nautilus'
+      url: '/hoteles/rove'
 
     },
     {
-      title: 'Hotel Olimar',
-      image: olimar,
-      alt: 'Imagen del Hotel Olimar',
+      title: 'Bungalows Puerto Angel',
+      image: puertoAngel,
+      alt: 'Imagen de Bungalows Puerto Angel',
       zona: 'Zona centro',
-      type: 'Hotel',
-      url: '/hoteles/olimar'
+      type: 'Bungalows',
+      url: '/hoteles/puertoAngel'
 
     },
     {
-      title: 'Villas Nautilus',
-      image: nautilus,
-      alt: 'Imagen de Villas Nautilus',
+      title: 'Bungalows Olivares',
+      image: olivares,
+      alt: 'Imagen de Bungalows Olivares',
       zona: 'Zona centro',
-      type: 'Hotel',
-      url: '/hoteles/nautilus'
+      type: 'Bungalows',
+      url: '/hoteles/bungalowsOlivares'
 
     },
     {
-      title: 'Hotel Olimar',
-      image: olimar,
-      alt: 'Imagen del Hotel Olimar',
+      title: 'Hotel Del Valle',
+      image: delValle,
+      alt: 'Imagen del Hotel Del Valle',
       zona: 'Zona centro',
       type: 'Hotel',
-      url: '/hoteles/olimar'
+      url: '/hoteles/hotelDelValle'
 
     },
+    {
+      title: 'Hotel Miramar',
+      image: miramar,
+      alt: 'Imagen del Hotel Miramar',
+      zona: 'Zona centro',
+      type: 'Hotel',
+      url: '/hoteles/hotelMiramar'
+
+    },
+    {
+      title: 'Hotel La Jungla',
+      image: laJungla,
+      alt: 'Imagen del Hotel La Jungle',
+      zona: 'Zona centro',
+      type: 'Hotel',
+      url: '/hoteles/hotelLaJungla'
+
+    },
+    {
+      title: 'Suites Vicky',
+      image: vicky,
+      alt: 'Imagen de Suites Vicky',
+      zona: 'Zona centro',
+      type: 'Hotel',
+      url: '/hoteles/suitesVicky'
+
+    },
+    {
+      title: 'Hotel De los Reyes',
+      image: reyes,
+      alt: 'Imagen del Hotel De los Reyes',
+      zona: 'Zona centro',
+      type: 'Hotel',
+      url: '/hoteles/hotelDeLosReyes'
+
+    },
+    
   ]
 
   return (
-    <main className='containerP'>
+    <main className='containerP animate '>
       <div className=' mt-2 lg:mt-5 flex flex-col gap-5 '>
         <h1 className=' font-bold text-4xl lg:text-[3.5rem]'>Hoteles</h1>
         <p className='md:w-[89%] lg:w-[70%]'>Explora una diversidad de opciones, desde acogedores hoteles boutique hasta encantadores hostales, que reflejan la auténtica esencia de Acapulco. Descubre tu lugar perfecto para alojarte en este destino mexicano, donde cada rincón ofrece una experiencia única. </p>
@@ -113,11 +163,11 @@ export default function Hotelpage() {
       </div>
 
       <section className='mt-24 md:mt-32 lg:mt-[12rem]'>
-        <h2 className='font-bold text-3xl lg:text-[2.8rem] lg:mb-5'>Hoteles</h2>
+        <h2 className='font-bold text-3xl lg:text-[2.8rem] lg:mb-5 '>Hoteles</h2>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4'>
           {hoteles.map((hotel => (
-            <Link key={hotel.title} href={hotel.url}>
-              <div className={`my-5 rounded-2xl overflow-hidden border border-gray-200 shadow-md ${styles.card}`}>
+            <Link key={hotel.title} href={hotel.url} className={`${styles.card}`}>
+              <div className={`my-5 rounded-2xl overflow-hidden border border-gray-200 shadow-md  ${styles.card}`}>
                 <Image
                   src={hotel.image}
                   alt={hotel.alt}

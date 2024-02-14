@@ -26,7 +26,7 @@ const HeroSlider = () => {
                 alt={`Imagen de acapulco`}
                 width={700}
                 height={900}
-                className={` md:hidden ${styles.slider__img}`}
+                className={` section md:hidden ${styles.slider__img}`}
             />
 
 

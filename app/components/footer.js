@@ -16,7 +16,7 @@ export default function Footer() {
         y: 0,
         transition: { delay: 0.33, duration: 0.3 },
       }} viewport={{ once: true }}
-      className={`containerP flex flex-col gap-4 mt-8 py-16 px-5 w-full md:px10 ${styles.footer}`}>
+      className={`section containerP flex flex-col gap-4 mt-8 py-16 px-5 w-full md:px10 ${styles.footer}`}>
       <div className={` ${styles.colab}`}>
         <h2>¿Quieres ver aquí tu negocio?</h2>
         <motion.div className={styles.contacto__btn} whileTap={{ border: 'indigo' }}>

@@ -2,14 +2,20 @@
     display: flex;
     flex-direction: column;
     cursor: pointer;
+   
+    
   }
   
   .bar {
     width: 30px;
     height: 3px;
-    background-color: #333;
+    background-color: var(--black);
     margin: 4px 0;
     transition: 0.4s;
+    border-radius: 15px;
+  }
+  .bar.white {
+    background-color: var(--white);
   }
   
   .hamburger__menu.open .bar:nth-child(1) {
@@ -29,10 +35,11 @@
     z-index: 2;
     display: flex;
     flex-direction: column;
-    top: -150vh; 
+    top: -1500px; 
     left: 0;
     width: 100vw;
-    height: 100vh;
+    
+    height: 105vh;
     overflow-y: auto; 
     transition: top 0.33s ease; 
     background: #2980B9;  /* fallback for old browsers */
@@ -44,7 +51,7 @@
   }
   
   .nav.open {
-    top: 0; /* Slide in the menu to the top */
+    top: -5vh; 
   }
   .nav a {
     color: var(--black);

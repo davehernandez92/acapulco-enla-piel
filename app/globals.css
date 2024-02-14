@@ -123,8 +123,32 @@ img{
 .containerX{
   padding: 0 1.2rem;
 }
-.containerNav{
-  padding: 1rem 1.2rem;
+
+@keyframes fadeInAndMoveUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.animate{
+  animation: fadeInAndMoveUp 0.5s ease-out;
+}
+.animateLeft{
+  animation: fadeInLeft 0.5s ease-out;
 }
 
 @media screen and (min-width: 768px) {

@@ -69,7 +69,7 @@ export default function BentoSection() {
                         <div className={`w-full h-full p-3 ${styles.card__txt} ${styles.merca__txt}`}>
                             <h2>Nuestra merca</h2>
                             <p>Porque sabemos que quieres llevar a Acapulco en la piel</p>
-                            <Link href={'/restaurantes'} className={buttonVariants({ variant: "outline" })}>Ver más</Link>
+                            <Link href={'/mercancia'} className={buttonVariants({ variant: "outline" })}>Ver más</Link>
                         </div>
                     </div>
                 </div>
@@ -127,7 +127,7 @@ export default function BentoSection() {
                             <h2>Visita nuestro canal</h2>
                             
                             <p>Adentrate a nuestro canal y conoce Acapulco desde adentro!</p>
-                            <Link href={'/restaurantes'} className={buttonVariants({ variant: "outline" })}>Ver canal</Link>
+                            <Link target='blank' href={'https://www.youtube.com/@acapulcoenlapiel'} className={buttonVariants({ variant: "outline" })}>Ver canal</Link>
                         </div>
                     </div>
                 </div>

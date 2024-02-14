@@ -21,7 +21,7 @@
 @media screen and (min-width: 768px) {
     .slider__imgDesk {
         height: auto;
-        
+        width: 100%;
         margin: 2rem auto;
         border-radius: 18px;
     }
