@@ -182,7 +182,7 @@ const Header = () => {
                             <NavigationMenuItem>
                                 <Link href="/restaurantes" legacyBehavior passHref>
                                     <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                                        Restaurantes
+                                        Restaurantes 
                                     </NavigationMenuLink>
                                 </Link>
                             </NavigationMenuItem>
