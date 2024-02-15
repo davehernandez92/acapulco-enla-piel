@@ -10,6 +10,10 @@ import galerias from '@/public/images/visita/galerias.webp'
 import galeriasAca from '@/public/images/visita/galeriasAca.webp'
 import isla from '@/public/images/visita/isla.webp'
 import palmas from '@/public/images/visita/palmas.webp'
+import sinfo from '@/public/images/visita/sinfo.webp'
+import quebrada from '@/public/images/visita/quebrada.webp'
+import papagayo from '@/public/images/visita/papagayo.webp'
+import jardin from '@/public/images/visita/jardin.webp'
 import styles from '../styles/visita.module.css'
 
 export default function page() {
@@ -60,13 +64,37 @@ export default function page() {
     },
   ]
   const sitios = [
-
+    {
+      title: 'Parque Papagayo',
+      image: papagayo,
+      alt: 'Imagen del Parque Papagayo',
+      text: 'Actualmente remodelado, es el parque más importante del Estado de Guerrero. Cuenta con áreas de comida, juegos para niños y muchas áreas verdes.'
+    },
+    {
+      title: 'Sinfonía del Mar',
+      image: sinfo,
+      alt: 'Imagen de Sinfonía del Mar',
+      text: 'Una ventana natural hacia el imponente e inmenso Océano Pacífico, el lugar perfecto para presenciar unos atardeceres increíbles.'
+    },
+    {
+      title: 'La Quebrada',
+      image: quebrada,
+      alt: 'Imagen de La Quebrada',
+      text: 'El lugar tradicional por excelencia del puerto de Acapulco. Diariamente, los clavadistas de La Quebrada realizan actos increíbles que, en algunos momentos, ponen en peligro la vida de quienes los llevan a cabo. No importa si es un día soleado, hay mar de fondo o llueve, ellos siempre dan un espectáculo arriesgado, pero muy bien reconocido a nivel mundial.'
+    },
+    {
+      title: 'Jardín Botánico de Acapulco',
+      image: jardin,
+      alt: 'Imagen de La Quebrada',
+      text: 'En lo alto del cerro de Cumbres de Llano Largo, detrás de la reconocida Universidad Loyola, se encuentra el Jardín Botánico de Acapulco. Cientos de variedades y especies de plantas pueden admirarse aquí, así como unas carpas Koi en sus estanques, y pláticas de interés respecto a temas de biología y naturaleza en su auditorio.'
+    },
+    
   ]
   return (
     <main className=''>
-      <div className=' animate flex flex-col-reverse gap-4'>
-        <div className={`  containerX flex mt-[3rem] lg:mt-24  flex-col gap-5  ${styles.heroDiv}`}>
-          <h1 className=' font-bold text-4xl lg:text-[3.5rem]'>Visita Acapulco</h1>
+      <div className=' animate flex flex-col-reverse gap-4 '>
+        <div className={` containerX flex mt-[3rem] flex-col gap-5  pb-10 md:pb-[10%] md:pt-20  lg:mt-28 lg:gap-9 ${styles.heroDiv}`}>
+          <h1 className=' font-bold text-4xl lg:text-[3.8rem]'>Visita Acapulco</h1>
           <p className='md:w-[89%] lg:w-[70%]'>Explora Acapulco más allá de sus playas y restaurantes. Sumérgete en nuestra riqueza cultural e historia y descubre una ciudad que va más allá de sus icónicas playas, donde museos fascinantes, plazas vibrantes y sitios emblemáticos esperan ser explorados. </p>
           <p className='md:w-[89%] lg:w-[70%]'>Suma a tu experiencia turística la visita a estos puntos de interés que revelan la auténtica esencia de Acapulco. ¡Embárcate en un viaje más allá de las costas y descubre la fascinante historia que Acapulco tiene para ofrecer! </p>
 
@@ -88,21 +116,21 @@ export default function page() {
         />
       </div>
 
-      <div className='containerP'>
+      <div className='containerP '>
         <Tabs defaultValue="museos" className=" w-full bg-transparent">
-          <TabsList className='bg-transparent flex justify-around '>
-            <TabsTrigger value="museos">Museos</TabsTrigger>
-            <TabsTrigger value="plazas">Plazas</TabsTrigger>
-            <TabsTrigger value="sitios">Sitios</TabsTrigger>
+          <TabsList className='bg-transparent flex justify-between md:justify-start md:gap-3 lg:w-[50%] '>
+            <TabsTrigger value="museos" className='text-[1.1rem] md:text-xl lg:text-2xl'>Museos</TabsTrigger>
+            <TabsTrigger value="plazas" className='text-[1.1rem] md:text-xl lg:text-2xl'>Plazas</TabsTrigger>
+            <TabsTrigger value="sitios" className='text-[1.1rem] md:text-xl lg:text-2xl'>Sitios</TabsTrigger>
           </TabsList>
           <TabsContent className='animateLeft' value="museos">
             <div>
-              <h2 className='mt-10 text-[2.1rem] md:text-[2.4rem]'>¡Explora nuestros museos!</h2>
+              <h2 className='mt-10 text-[2.1rem]  md:text-[2.4rem] lg:text-[2.8rem]'>¡Explora nuestros museos!</h2>
               {museos.map((museo => (
-                <div key={museo.title} className={`${styles.card} mt-10 mb-16 lg:my-12`}>
+                <div key={museo.title} className={`${styles.card} mt-10 mb-16 lg:my-16`}>
                   <div className={`flex flex-col gap-6 lg:flex-row `}>
-                    <div className='lg:flex-2'>
-                      <h3 className=' mb-2 text-[1.4rem]'> {museo.title}</h3>
+                    <div className='lg:flex-2 lg:pt-16 lg:pr-16'>
+                      <h3 className=' mb-2 text-[1.4rem] lg:text-[2.1rem]'> {museo.title}</h3>
                       <p>{museo.text}</p>
                     </div>
                     <Image
@@ -123,12 +151,12 @@ export default function page() {
           </TabsContent>
           <TabsContent className='animateLeft' value="plazas">
             <div>
-              <h2 className='mt-10 text-[2.1rem] md:text-[2.4rem]'>¡Explora nuestras Plazas!</h2>
+            <h2 className='mt-10 text-[2.1rem]  md:text-[2.4rem] lg:text-[2.8rem]'>¡Explora nuestras Plazas!</h2>
               {plazas.map((plaza => (
-                <div key={plaza.title} className={`${styles.card} mt-10 mb-16 lg:my-12`}>
+                <div key={plaza.title} className={`${styles.card} mt-10 mb-16 lg:my-16`}>
                   <div className={`flex flex-col gap-6 lg:flex-row `}>
-                    <div className='lg:flex-2'>
-                      <h3 className=' mb-2 text-[1.4rem]'> {plaza.title}</h3>
+                    <div className='lg:flex-2 lg:pt-16 lg:pr-16'>
+                      <h3 className=' mb-2 text-[1.4rem] lg:text-[2.1rem]'> {plaza.title}</h3>
                       <p>{plaza.text}</p>
                     </div>
                     <Image
@@ -147,7 +175,32 @@ export default function page() {
               )))}
             </div>
           </TabsContent>
-          <TabsContent className='animateLeft' value="sitios">Change your password here.</TabsContent>
+          <TabsContent className='animateLeft' value="sitios">
+          <div>
+              <h2 className='mt-10 text-[2.1rem] md:text-[2.4rem]'>¡Conoce estos sitios!</h2>
+              {sitios.map((sitio => (
+                <div key={sitio.title} className={`${styles.card}mt-10 mb-16 lg:my-16`}>
+                  <div className={`flex flex-col gap-6 lg:flex-row `}>
+                    <div className='lg:flex-2 lg:pt-16 lg:pr-16'>
+                      <h3 className=' mb-2 text-[1.4rem] lg:text-[2.1rem]'> {sitio.title}</h3>
+                      <p>{sitio.text}</p>
+                    </div>
+                    <Image
+                      src={sitio.image}
+                      alt={sitio.alt}
+                      width={1000}
+                      height={700}
+                      className={`w-full  object-cover lg:flex0 lg:w-[50%] ${styles.img}`}
+                    />
+
+
+
+
+                  </div>
+                </div>
+              )))}
+            </div>
+          </TabsContent>
         </Tabs>
 
       </div>

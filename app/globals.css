@@ -164,12 +164,12 @@ img{
 }
 @media screen and (min-width: 1080px) {
   .containerP {
-    padding: 4rem 7rem 2rem 7rem;
+    padding: 4rem 8.5rem 2rem 8.5rem;
   }
   .containerX{
-    padding: 0 7rem;
+    padding: 0 8.5rem;
   }
   .containerNav{
-    padding: 2rem 7rem .1rem 7rem;
+    padding: 2rem 8.5rem .1rem 8.5rem;
   }
 }
