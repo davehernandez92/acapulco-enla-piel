@@ -172,19 +172,12 @@ const Header = () => {
                                 </Link>
                             </NavigationMenuItem>
                             <NavigationMenuItem>
-                                <NavigationMenuTrigger className={styles.nav__txt}>Hoteles</NavigationMenuTrigger>
-                                <NavigationMenuContent>
-                                    <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-
-                                        <ListItem href="/hoteles/hostales" title="Hostales">
-                                            Encuentra de todo tipo de Hostales.
-                                        </ListItem>
-                                        <ListItem href="/hoteles/todo-incluido" title="Todo incluido">
-                                            Encuentra las mejores ofertas todo incluido
-                                        </ListItem>
-
-                                    </ul>
-                                </NavigationMenuContent>
+                                
+                                <Link href="/hoteles" legacyBehavior passHref>
+                                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                                        Hoteles
+                                    </NavigationMenuLink>
+                                </Link>
                             </NavigationMenuItem>
                             <NavigationMenuItem>
                                 <Link href="/restaurantes" legacyBehavior passHref>
