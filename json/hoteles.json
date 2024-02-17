@@ -1,0 +1,209 @@
+[
+    {
+      "id": "nautilus",
+      "name": "Villas Nautilus",
+      "phoneNumber": "55 5432 5126",
+      "email": "angel_mvr@hotmail.com",
+      "website": "http://www.villasnautilus.com.mx/",
+      "youtube": "https://www.youtube.com/watch?v=kV2rHJeyots",
+      "facebook": "https://www.facebook.com/VillasNautilusMX/",
+      "description": "Ubicado en Playa Bonfil, Villas Nautilus, es un hotel familiar, pequeño, pero con una esencia inolvidable. sus instalaciones son una muestra de que la atención al detalle, es lo que marca la diferencia. Habitaciones limpias y cómodas, una alberca con agua cristalina y de una limpieza envidiable y una ubicación excelente a tan solo unos pasos del oleaje de la Playa Bonfil, es lo que te espera al momento de llegar a este mágico lugar que sin duda, jamás olvidarás. ",
+      "images": [
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174843/hoteles/nautilus/1_uyfpyb.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174844/hoteles/nautilus/5_vxfxc1.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174843/hoteles/nautilus/3_yuaamf.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174844/hoteles/nautilus/6_x5sysf.webp"
+      ]
+    },
+    {
+      "id": "olimar",
+      "name": "Hotel Olimar",
+      "phoneNumber": "7444820162",
+      "whatsapp": "7441362026",
+      "email": "reservacioneshotelolimar@gmail.com",
+      "website": "https://www.hotelolimar.com/",
+      "youtube": "https://www.youtube.com/watch?v=RGg5z7Xkp8s",
+      "facebook": "https://www.facebook.com/hotelolimar",
+      "description": "Un hotel pensado en dar la bienvenida a grupos y familias que quieran pasar sus mejores vacaciones en Acapulco, cerca de Caleta y Caletilla. Excelente ubicación, en la zona más tradicional de Caletilla, cerca del mercadito de Caletilla, y conectado al resto de Acapulco, a través de las rutas de transporte público que pasan a unos metros del hotel. Sin duda una opción excelente para economizar en tu estancia y priorizar la exploración y búsqueda de aventuras a lo largo y ancho del puerto más bello del mundo. ",
+      "images": [
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174835/hoteles/olimar/1_lh5s8l.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174834/hoteles/olimar/2_aikk60.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174834/hoteles/olimar/3_kfyiut.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174834/hoteles/olimar/4_ivzd0z.webp"
+      ]
+    },
+    {
+      "id": "dondeMiraElSol",
+      "name": "Hotel Donde mira el sol",
+      "phoneNumber": "7441941202",
+      "whatsapp": null,
+      "email": null,
+      "website": null,
+      "youtube": "https://www.youtube.com/watch?v=WAscT2C_vBk",
+      "facebook": null,
+      "description": "Lejos de cualquier sonido artificial, con una vista increíble hacia el océano pacífico, el Hotel Donde Mira El Sol, es una opción espectacular que te proporciona una conexión directa con la naturaleza. Sin duda es un placer para pocos, ya que es poco conocido en redes sociales y el cupo es limitado. Una playa exclusiva y espectacular y los mejores atardeceres, es lo que te espera en este mágico lugar ",
+      "images": [
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174867/hoteles/DONDE%20MIRA%20EL%20SOL/1_j24hc0.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174867/hoteles/DONDE%20MIRA%20EL%20SOL/2_yzmnuk.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174867/hoteles/DONDE%20MIRA%20EL%20SOL/3_nwbisp.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174868/hoteles/DONDE%20MIRA%20EL%20SOL/4_xlj4o2.webp"
+      ]
+    },
+    {
+      "id": "carlisa",
+      "name": "Hotel Carlisa",
+      "phoneNumber": "7441819196",
+      "whatsapp": null,
+      "email": "hotel_carlisa@hotmail.com",
+      "website": null,
+      "youtube": "https://www.youtube.com/watch?v=UhgdzL3r1Ek",
+      "facebook": "https://www.facebook.com/hotelcarlisa",
+      "description": "Un hotel con mucha experiencia en el servicio, cómodas instalaciones y habitaciones, muy cerca de la playa hornos y tamarindos y de la costera Miguel Alemán. El Hotel Carlisa, sin duda es una opción muy accesible y al alcance de todos los presupuestos, si buscas una opción confiable, cómoda y atención personalizada de su anfitrión, el Sr. Ernesto, no lo pienses más y reserva con anticipación. ",
+      "images": [
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174868/hoteles/CARLISA/1_owoltg.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174868/hoteles/CARLISA/2_dwkbrj.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174869/hoteles/CARLISA/3_h6engd.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174869/hoteles/CARLISA/4_fh7gl5.webp"
+      ]
+    },
+    {
+      "id": "rove",
+      "name": "Hotel Rove",
+      "phoneNumber": "7443565154",
+      "whatsapp": null,
+      "email": "hotelrove@gmail.com",
+      "website": null,
+      "youtube": "https://www.youtube.com/watch?v=DYVUGPkUlhQ",
+      "facebook": "https://www.facebook.com/hotelroveaca",
+      "description": "Un hotel económico, realmente con las tres B, que te va a encantar. Excelente servicio, a unos pasos de la costera y cerca de playa Las Hamacas, Hornos y Tamarindos. También está cerca del principal mercado de Acapulco, donde puedes encontrar de todo. Es un hotel familiar, cuenta con habitaciones cómodas y limpias, alberca y experiencia en el servicio hotelero, que es el estandarte de trabajo, de los hoteles tradicionales de Acapulco. ",
+      "images": [
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174870/hoteles/ROVE/1_pmr6ms.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174870/hoteles/ROVE/2_cxcc5z.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174870/hoteles/ROVE/3_eqbdlg.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174871/hoteles/ROVE/4_komtsp.webp"
+      ]
+    },
+    {
+      "id": "puertoAngel",
+      "name": "Bungalows Puerto Angel",
+      "phoneNumber": "7444832158",
+      "whatsapp": "7441008028",
+      "email": "reservacionespuertoangel@gmail.com",
+      "website": "https://www.bungalowspuertoangel.com/",
+      "youtube": "https://www.youtube.com/watch?v=t7DL45xevx8",
+      "facebook": "https://www.facebook.com/puertoangelaca",
+      "description": "Si alguna vez te has querido sentir como en casa, en Acapulco, este lugar es tu opción. Es como llegar a tu casa de Acapulco ya que cada uno de sus bungalows, está totalmente equipado y cuenta con todo lo necesario para que te sientas como en casa. Ubicado en una zona muy tranquila y tradicional de Acapulco, cerca de las playas de Caleta y Caletilla, sin duda es una opción muy familiar que te va a encantar. ",
+      "images": [
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174880/hoteles/PUERTO%20ANGEL/1_vne7xs.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174879/hoteles/PUERTO%20ANGEL/2_stoale.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174880/hoteles/PUERTO%20ANGEL/3_rguyfv.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174881/hoteles/PUERTO%20ANGEL/4_cj07ir.webp"
+      ]
+    },
+    {
+      "id": "bungalowsOlivares",
+      "name": "Bungalows Olivares",
+      "phoneNumber": "7444826894",
+      "whatsapp": "7442166262",
+      "email": "reservacionesolivares@gmail.com ",
+      "website": "https://www.hotelolimar.com/",
+      "youtube": "https://www.youtube.com/watch?v=XngI0_ipAWc",
+      "facebook": "https://www.facebook.com/hotelolimar",
+      "description": "Si alguna vez has querido sentirte privilegiado, este lugar puede darte esa sensación, ya que es un privilegio para pocos. En Bungalows Olivares, la calidad prioriza la cantidad, pues el cupo es limitado al ser un lugar pequeño, íntimo, acogedor, familiar. Cuenta con habitaciones equipadas, estacionamiento y una alberca que, mezclado con la tranquilidad de la zona, tus días de descanso están asegurados.",
+      "images": [
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174880/hoteles/OLIVARES/1_ed7zng.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174882/hoteles/OLIVARES/2_ynenkb.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174882/hoteles/OLIVARES/3_repatc.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174883/hoteles/OLIVARES/4_udetfr.webp"
+      ]
+    },
+    {
+      "id": "hotelDelValle",
+      "name": "Hotel Del Valle",
+      "phoneNumber": "7444858336",
+      "whatsapp": null,
+      "email": "hotelvalle6204@gmail.com",
+      "website": null,
+      "youtube": "https://www.youtube.com/watch?v=YU6FlmCXCfQ",
+      "facebook": "https://www.facebook.com/DelValleHotel",
+      "description": "Uno de los hoteles familiares más bonitos de Acapulco. A unos pasos de la costera Miguel Alemán, justo al lado del Parque Papagayo, el más importante de todo el estado de Guerrero. Cerca de todo, pues su envidiable ubicación lo colocan como una de las mejores opciones para vacacionar en Acapulco. Plazas comerciales, cines, restaurantes, playas, centros comerciales y toda la zona de antros y bares de la condesa, están a tan solo unos pasos de este increíble lugar que sin duda, será de tus consentidos al momento de visitar al puerto más bello del mundo. ",
+      "images": [
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174883/hoteles/DEL%20VALLE/1_hvxoxk.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174884/hoteles/DEL%20VALLE/2_xyhz7n.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174884/hoteles/DEL%20VALLE/3_q1mta0.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174884/hoteles/DEL%20VALLE/4_ss77wx.webp"
+      ]
+    },
+    {
+      "id": "hotelMiramar",
+      "name": "Hotel Miramar",
+      "phoneNumber": "7441664295",
+      "whatsapp": null,
+      "email": null,
+      "website": null,
+      "youtube": "https://www.youtube.com/watch?v=lXcCu1BJQeA",
+      "facebook": "https://www.facebook.com/profile.php?id=100054317718961",
+      "description": "A unos pasos de la Costera Miguel Alemán, muy cerca de la Diana, en plena zona dorada de Acapulco, se encuentra el hotel Miramar. Excelente ubicación, muy cerca de todo, cómodas instalaciones y habitaciones y una alberca familiar, son algunas de las razones que te harán reservar en este pequeño, pero efectivo lugar de descanso y vacaciones.  ",
+      "images": [
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174885/hoteles/MIRAMAR/1_plprnc.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174885/hoteles/MIRAMAR/2_rtland.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174886/hoteles/MIRAMAR/3_gfytr8.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174887/hoteles/MIRAMAR/4_nogvpo.webp"
+      ]
+    },
+    {
+      "id": "hotelLaJungla",
+      "name": "Hotel La Jungla",
+      "phoneNumber": "7444820255",
+      "whatsapp": null,
+      "email": "hotellajungla445a@hotmail.com",
+      "website": null,
+      "youtube": "https://www.youtube.com/watch?v=bmNq8B7hN98",
+      "facebook": "https://www.facebook.com/lajunglahotel",
+      "description": "Uno de los hoteles más tradicionales de Acapulco. Ubicado sobre la Av. Costera Miguel Alemán, tiene a sus espaldas, una de las playas que ofrece hermosos atardeceres: playa La Angosta. Cuenta con habitaciones muy cómodas y una amplia experiencia en atención a grupos de visitantes. Sin duda una opción muy efectiva que combina experiencia, confort y descanso.",
+      "images": [
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174858/hoteles/JUNGLA/1_guetn4.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174856/hoteles/JUNGLA/2_wddzb3.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174857/hoteles/JUNGLA/3_ldmkq0.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174857/hoteles/JUNGLA/4_xee7ua.webp"
+      ]
+    },
+    {
+      "id": "hotelDeLosReyes",
+      "name": "Hotel De los Reyes",
+      "phoneNumber": "7444490524",
+      "whatsapp": null,
+      "email": "hoteldelosreyesacapulco@hotmail.com",
+      "website": null,
+      "youtube": "https://www.youtube.com/watch?v=2nGxCWnHHaM",
+      "facebook": "https://www.facebook.com/profile.php?id=100063568123958",
+      "description": "Un hotel lleno de historia, pues desde la década de los años 50s, ha sido pionero del servicio hotelero y turístico en Acapulco. Artistas y personajes nacionales e internacionales, disfrutaron muchos días de descanso en este agradable hotel, que se ubica sobre la costera Miguel Alemán, a unos pasos de la playa Manzanillo y la playa La Angosta.",
+      "images": [
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174854/hoteles/REYES/1_uxnjli.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174854/hoteles/REYES/2_ljfaau.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174855/hoteles/REYES/3_wgws7x.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174855/hoteles/REYES/4_nhqzm7.webp"
+        
+      ]
+    },
+    {
+      "id": "suitesVicky",
+      "name": "Suites Vicky",
+      "phoneNumber": "7444865874",
+      "whatsapp": null,
+      "email": "contacto@suitesvicky.com.mx",
+      "website": "https://www.suitesvicky.com.mx/",
+      "youtube": "https://www.youtube.com/watch?v=GWAzQ0PRQs8",
+      "facebook": null,
+      "description": "Ubicado en el corazón de la zona dorada de Acapulco, Suites Vicky se consolida como una opción realmente accesible, para todo tipo de presupuestos y grupos de personas y visitantes. Años de experiencia en el servicio los respaldan. Su excelente ubicación, teniendo muy cerca restaurantes, plazas, centros comerciales y playas, hacen de este lugar, una opción imperdible para visitar en el puerto más bello del mundo.",
+      "images": [
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174856/hoteles/VICKY/1_oykhc0.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174856/hoteles/VICKY/2_bv0tsl.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174856/hoteles/VICKY/3_q8ke8x.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174857/hoteles/VICKY/4_qpkdgy.webp"
+      ]
+    }
+    
+    
+  ]
+  
