@@ -251,6 +251,11 @@ export default function HotelPage() {
                 </div>
 
             </div>
+            <div className='flex justify-center py-9'>
+                <Link className=' text-[18px] py-2 border-b-2 transition-transform duration-300 transform hover:text-teal-800 font-[500] focus:outline-none focus:ring focus:border-b-0 ' href={'/hoteles'}>
+                    Ver mas hoteles
+                </Link>
+            </div>
 
 
 
