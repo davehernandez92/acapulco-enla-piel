@@ -1,0 +1,134 @@
+[
+    {
+        "id": "DeaGarcia",
+        "name": "Dea García",
+        "servicio": "Fotografía",
+        "phoneNumber": null,
+        "email": null,
+        "website": null,
+        "youtube": null,
+        "facebook": "https://www.facebook.com/SoySirenaIlustrada",
+        "facebook2": "https://www.facebook.com/DeaGarciaFotografia",
+        "instagram": "https://www.instagram.com/sirenailustrada/",
+        "description": "Geminiana de nacimiento, mente y corazón, soy fotógrafa de profesión y en mis ratos libres ilustro sentimientos encontrados en la música, en experiencias, y en Acapulco, mismos que plasmo en mi merch (playeras, tazas, y libretas) encuéntralos en mi cuenta de Instagram y Facebook. Me encantan los perros y los gatos. Mi proceso y tips de dibujo están en Tik Tok.",
+        "images": [
+            {
+                "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1708400216/servicios/DEA/1_u0suli.webp",
+                "width": "600",
+                "height": "800"
+            },
+            {
+                "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1708392483/servicios/DEA/IMG_30451_a26pwe.webp",
+                "width": "800",
+                "height": "1100"
+            },
+            {
+                "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1708392483/servicios/DEA/IMG_3708_ce50vl.webp",
+                "width": "1000",
+                "height": "600"
+            },
+            {
+                "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1708392482/servicios/DEA/IMG_3043_stvgiv.webp",
+                "width": "1000",
+                "height": "600"
+            },
+            {
+                "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1708392482/servicios/DEA/IMG_3039_avfmg4.webp",
+                "width": "1000",
+                "height": "600"
+            },
+            {
+                "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1708392482/servicios/DEA/IMG_2113_tbh3xt.webp",
+                "width": "1000",
+                "height": "699"
+            },
+            {
+                "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1708392481/servicios/DEA/5_gnndot.webp",
+                "height": "1200",
+                "width": "799"
+            },
+            {
+                "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1708392480/servicios/DEA/2_2_d10qem.webp",
+                "height": "1000",
+                "width": "799"
+            },
+            {
+                "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1708392480/servicios/DEA/3_kjxf4b.webp",
+                "width": "799",
+                "height": "1000"
+            },
+            {
+                "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1708392480/servicios/DEA/1_2_ljw7nq.webp",
+                "width": "799",
+                "height": "1000"
+            }
+        ]
+    },
+    {
+        "id": "dronemx",
+        "name": "Dr Drone",
+        "servicio": "Video con drone",
+        "phoneNumber": null,
+        "email": null,
+        "website": null,
+        "youtube": null,
+        "facebook": "https://www.facebook.com/SoySirenaIlustrada",
+        "facebook2": "https://www.facebook.com/DeaGarciaFotografia",
+        "instagram": "https://www.instagram.com/sirenailustrada/",
+        "description": "Servicio profesional de grabación y edición de video con drone para eventos especiales, tareas de investigación o marketing. Servicio profesional de reparación y valoración de daños a equipos de vuelo profesional y principiante. Cursos de vuelo para principiantes e intermedios.",
+        "images": [
+            {
+                "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1708400216/servicios/DEA/1_u0suli.webp",
+                "width": "600",
+                "height": "800"
+            },
+            {
+                "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1708392483/servicios/DEA/IMG_30451_a26pwe.webp",
+                "width": "800",
+                "height": "1100"
+            },
+            {
+                "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1708392483/servicios/DEA/IMG_3708_ce50vl.webp",
+                "width": "1000",
+                "height": "600"
+            },
+            {
+                "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1708392482/servicios/DEA/IMG_3043_stvgiv.webp",
+                "width": "1000",
+                "height": "600"
+            },
+            {
+                "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1708392482/servicios/DEA/IMG_3039_avfmg4.webp",
+                "width": "1000",
+                "height": "600"
+            },
+            {
+                "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1708392482/servicios/DEA/IMG_2113_tbh3xt.webp",
+                "width": "1000",
+                "height": "699"
+            },
+            {
+                "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1708392481/servicios/DEA/5_gnndot.webp",
+                "height": "1200",
+                "width": "799"
+            },
+            {
+                "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1708392480/servicios/DEA/2_2_d10qem.webp",
+                "height": "1000",
+                "width": "799"
+            },
+            {
+                "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1708392480/servicios/DEA/3_kjxf4b.webp",
+                "width": "799",
+                "height": "1000"
+            },
+            {
+                "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1708392480/servicios/DEA/1_2_ljw7nq.webp",
+                "width": "799",
+                "height": "1000"
+            }
+        ]
+    }
+]
+
+
