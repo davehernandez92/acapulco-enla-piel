@@ -207,7 +207,7 @@ export default function HotelPage() {
                                     <Link
                                         title='Facebook'
                                         target='blank'
-                                        href={`${hotel.facebook}`}
+                                        href={`${hotel.instagram}`}
                                         className='flex gap-2 items-center text-[1.1rem] lg:text-[1.3rem] 
                                     lg:m-auto   
                                     w-fit
