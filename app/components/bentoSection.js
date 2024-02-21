@@ -8,6 +8,7 @@ import mercancia from '@/public/images/mercancia.webp'
 import visita from '@/public/images/visitar.webp'
 import servicios from '@/public/images/servicios.webp'
 import youtube from '@/public/images/youtube.webp'
+import youtubeSq from '@/public/images/youtube2.webp'
 import otis from '@/public/images/otis.webp'
 import styles from './styles/bentoSection.module.css'
 
@@ -120,7 +121,14 @@ export default function BentoSection() {
                         width={1600}
                         height={700}
                         alt='Imagen de Acapulco'
-                        className={`w-full min-h-[200px] object-cover rounded-2xl md:min-h-auto ${styles.img__horizontal}`}
+                        className={`hidden md:block w-full min-h-[200px] object-cover rounded-2xl md:min-h-auto ${styles.img__horizontal}`}
+                    />
+                    <Image
+                        src={youtubeSq}
+                        width={700}
+                        height={400}
+                        alt='Imagen de Acapulco'
+                        className={`w-full min-h-[200px] object-cover rounded-2xl md:min-h-auto md:hidden ${styles.img__horizontal}`}
                     />
                     <div className={`absolute bottom-0 left-0 w-full h-full bg-black bg-opacity-50 rounded-2xl ${styles.card__overlay}`}>
                         <div className={`w-full h-full  p-3 ${styles.card__txt}`}>

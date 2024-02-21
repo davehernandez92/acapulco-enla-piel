@@ -20,7 +20,7 @@ export default function ResturantePage() {
       title: 'Tacos Sotelo',
       image: sotelo,
       alt: 'Imagen de Tacos Sotelo',
-      zona: 'Zona centro',
+      zona: 'Zona Poniente',
       type: 'Taqueria',
       url: '/restaurantes/sotelo'
 
@@ -31,7 +31,7 @@ export default function ResturantePage() {
       title: 'Restaurante La Langosta',
       image: langosta,
       alt: 'Imagen de restaurante La Langosta',
-      zona: 'Zona centro',
+      zona: 'Puerto Marqués',
       type: 'Restaurante',
       url: '/restaurantes/laLangosta'
 
@@ -40,7 +40,7 @@ export default function ResturantePage() {
       title: 'Restaurante La Fondita',
       image: fondita,
       alt: 'Imagen del Restaurante La Fondita',
-      zona: 'Zona centro',
+      zona: 'Zona Diamante',
       type: 'Restaurante',
       url: '/restaurantes/laFondita'
 

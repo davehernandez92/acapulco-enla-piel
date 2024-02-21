@@ -28,7 +28,7 @@ export default function Hotelpage() {
       title: 'Villas Nautilus',
       image: nautilus,
       alt: 'Imagen de Villas Nautilus',
-      zona: 'Zona centro',
+      zona: 'Bonfil',
       type: 'Hotel',
       url: '/hoteles/nautilus'
 
@@ -39,7 +39,7 @@ export default function Hotelpage() {
       title: 'Hotel Olimar',
       image: olimar,
       alt: 'Imagen del Hotel Olimar',
-      zona: 'Zona centro',
+      zona: 'Caletilla',
       type: 'Hotel',
       url: '/hoteles/olimar'
 
@@ -48,7 +48,7 @@ export default function Hotelpage() {
       title: 'Hotel Donde mira el sol',
       image: sol,
       alt: 'Imagen de Hotel donde mira el sol',
-      zona: 'Zona centro',
+      zona: 'Zona Poniente',
       type: 'Hotel',
       url: '/hoteles/dondeMiraElSol'
 
@@ -75,7 +75,7 @@ export default function Hotelpage() {
       title: 'Bungalows Puerto Angel',
       image: puertoAngel,
       alt: 'Imagen de Bungalows Puerto Angel',
-      zona: 'Zona centro',
+      zona: 'Caletilla',
       type: 'Bungalows',
       url: '/hoteles/puertoAngel'
 
@@ -84,7 +84,7 @@ export default function Hotelpage() {
       title: 'Bungalows Olivares',
       image: olivares,
       alt: 'Imagen de Bungalows Olivares',
-      zona: 'Zona centro',
+      zona: 'Caletilla',
       type: 'Bungalows',
       url: '/hoteles/bungalowsOlivares'
 
@@ -93,7 +93,7 @@ export default function Hotelpage() {
       title: 'Hotel Del Valle',
       image: delValle,
       alt: 'Imagen del Hotel Del Valle',
-      zona: 'Zona centro',
+      zona: 'Fracc Magallanes',
       type: 'Hotel',
       url: '/hoteles/hotelDelValle'
 
@@ -101,7 +101,7 @@ export default function Hotelpage() {
     {
       title: 'Hotel Miramar',
       image: miramar,
-      alt: 'Imagen del Hotel Miramar',
+      alt: 'Fracc Magallanes',
       zona: 'Zona centro',
       type: 'Hotel',
       url: '/hoteles/hotelMiramar'
@@ -111,7 +111,7 @@ export default function Hotelpage() {
       title: 'Hotel La Jungla',
       image: laJungla,
       alt: 'Imagen del Hotel La Jungle',
-      zona: 'Zona centro',
+      zona: 'Zona Tradicional',
       type: 'Hotel',
       url: '/hoteles/hotelLaJungla'
 
@@ -120,7 +120,7 @@ export default function Hotelpage() {
       title: 'Suites Vicky',
       image: vicky,
       alt: 'Imagen de Suites Vicky',
-      zona: 'Zona centro',
+      zona: 'Fracc Magallanes',
       type: 'Hotel',
       url: '/hoteles/suitesVicky'
 
@@ -129,7 +129,7 @@ export default function Hotelpage() {
       title: 'Hotel De los Reyes',
       image: reyes,
       alt: 'Imagen del Hotel De los Reyes',
-      zona: 'Zona centro',
+      zona: 'Zona Tradicional',
       type: 'Hotel',
       url: '/hoteles/hotelDeLosReyes'
 

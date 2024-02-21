@@ -42,9 +42,8 @@
     height: 105vh;
     overflow-y: auto; 
     transition: top 0.33s ease; 
-    background: #2980B9;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #FEFEFE,#338fcc, #4d6997);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #FEFEFE, #338fcc, #4d6997); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: url('https://res.cloudinary.com/dt3h0p239/image/upload/v1708524149/assets/navMenu_gwktvn.webp');
+    background-size: cover;
 
     
 
@@ -55,8 +54,9 @@
   }
   .nav a {
     color: var(--black);
-    font-size: 1.6rem;
-    font-weight: 400;
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 1.2px;
   }
   .navDesk a{
     color: var(--black);
