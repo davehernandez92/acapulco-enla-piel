@@ -129,7 +129,7 @@ export default function HotelPage() {
                 <div className='mt-6'>
                     <h2 className='  text-[1.8rem] md:text-center lg:text-[2.8rem]'>¡Checa nuestro review en youtube!</h2>
                     <Link title='Video de youtube' target='blank' href={hotel.youtube}>
-                        <div className='relative group md:w-[600px] m-auto lg:w-[800px] '>
+                        <div className='relative group md:w-[600px] m-auto lg:w-[60%] '>
                             <Image
                                 src={youtube}
                                 alt='Enlace a youtube'
@@ -144,14 +144,14 @@ export default function HotelPage() {
                 <div className=' flex flex-col gap-4 my-12 py-5 md:py-10 md:my-16 lg:mt-6 lg:py-0 lg:m-auto  '>
 
 
-                    <h2 className='text-[1.8rem] lg:text-[2.8rem]'>¡Ponte en contacto!</h2>
-                    <div className=' flex flex-col gap-3 lg:mt-6 lg:text-center '>
+                    <h2 className='text-[1.8rem] md:text-[2.2rem] md:text-center lg:text-[2.8rem]'>¡Ponte en contacto!</h2>
+                    <div className=' flex flex-col gap-3 md:text-center lg:mt-6  '>
                         <p>¿Quieres saber más sobre este hotel?</p>
                         <p>Te dejamos sus datos de contacto.</p>
                     </div>
 
 
-                    <div className='mt-8'>
+                    <div className='mt-8 md:mx-auto'>
                         <ul className='flex flex-col gap-5'>
                             <li >
                                 <Link

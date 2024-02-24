@@ -5,6 +5,7 @@ import * as React from "react"
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import Image from "next/image"
+import nav from '@/public/images/navMenu.webp'
 
 import { cn } from "@/lib/utils"
 import logo from "@/public/images/logoN.png"
@@ -23,7 +24,7 @@ import styles from './styles/navmenu.module.css'
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
-    const [isOnSection, setIsOnSection] = useState(true);
+    const [isOnSection, setIsOnSection] = useState(false);
 
 
     const toggleMenu = () => {
@@ -64,8 +65,21 @@ const Header = () => {
             <nav className='containerNav'>
 
                 {/* MOBILE NAV MENU  */}
-                <div className=" fixed w-full z-30 left-0 right-0 ">
-                    <div className={`md:hidden absolute top-5 right-5 z-20 ${styles.hamburger__menu} ${isOpen ? styles.open : ''}`} onClick={toggleMenu}>
+                <div className={`fixed w-full z-30 left-0 right-0 flex justify-between items-center pt-5 px-5 ${styles.navMobile}`}>
+                    <Link href={'/'}>
+                        <Image
+                            src={logo}
+                            width={35}
+                            height={35}
+                            alt="Logo Acapulco en la Piel "
+                            className=" md:hidden "
+
+                        />
+                    </Link>
+                    <div className={`md:hidden  z-20 ${styles.hamburger__menu} ${isOpen ? styles.open : ''}`} onClick={toggleMenu}>
+
+                        
+                        
                         <div className={`${styles.bar} ${isOnSection ? styles.white : ''}`}></div>
 
                         <div className={`${styles.bar} ${isOnSection ? styles.white : ''}`}></div>
@@ -74,7 +88,7 @@ const Header = () => {
 
                     </div>
                     <div className={`md:hidden absolute  ${styles.nav} ${isOpen ? styles.open : ''}`}>
-
+                        
                         <motion.ul
 
                             className=" flex flex-col gap-8 h-full justify-center items-center ">

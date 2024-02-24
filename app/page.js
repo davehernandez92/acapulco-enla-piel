@@ -4,10 +4,10 @@ import HeroSlider from "./components/heroSlide";
 
 export default function Home() {
   return (
-    <section >
+    <main >
       <HeroSlider/>
       <DestacadosCarousel/>
       <BentoSection/>
-    </section>
+    </main>
   )
 }

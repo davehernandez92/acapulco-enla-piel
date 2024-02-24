@@ -5,7 +5,13 @@
    
     
   }
-  
+  .navMobile{
+    top: 0;
+    backdrop-filter: blur(2px);
+    background-color: transparent;
+    height: auto;
+    padding-bottom: 0.5rem;
+  }
   .bar {
     width: 30px;
     height: 3px;
@@ -16,6 +22,11 @@
   }
   .bar.white {
     background-color: var(--white);
+  }
+  .hamburger__menu.open{
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
   }
   
   .hamburger__menu.open .bar:nth-child(1) {
@@ -44,19 +55,24 @@
     transition: top 0.33s ease; 
     background: url('https://res.cloudinary.com/dt3h0p239/image/upload/v1708524149/assets/navMenu_gwktvn.webp');
     background-size: cover;
+    
 
     
 
   }
   
+
+
+
   .nav.open {
     top: -5vh; 
   }
   .nav a {
-    color: var(--black);
+    color: #fff;
     font-size: 1.7rem;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 1.2px;
+    z-index: 2;
   }
   .navDesk a{
     color: var(--black);
