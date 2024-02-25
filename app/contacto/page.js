@@ -12,7 +12,7 @@ import contacto from '@/public/images/contact.webp'
 import styles from '../styles/contacto.module.css'
 import { useRouter } from 'next/navigation'
 
-export default function page() {
+export default function Contacto() {
   
   const publicKey = process.env.EMAIL_KEY
   const form = useRef();
