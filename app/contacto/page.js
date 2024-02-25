@@ -10,7 +10,6 @@ import Image from 'next/image'
 import { Toaster, toast } from "sonner";
 import contacto from '@/public/images/contact.webp'
 import styles from '../styles/contacto.module.css'
-import { useRouter } from 'next/navigation'
 
 export default function Contacto() {
   
@@ -56,7 +55,7 @@ export default function Contacto() {
     setEmail("");
     setPhoneNumber("");
     setProjectDetails("");
-    router.push('/')
+    
     
   })
   .catch((error) => {
