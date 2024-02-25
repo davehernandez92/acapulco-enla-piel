@@ -166,6 +166,18 @@ const Header = () => {
                                     Mercancia Oficial
                                 </Link>
                             </motion.li>
+                            <motion.li
+                                initial={{ opacity: 0, y: -10 }}
+                                whileInView={{
+                                    opacity: 1,
+                                    y: 0,
+                                    transition: { delay: 0.36, duration: 0.3 },
+                                }}
+                            >
+                                <Link onClick={toggleMenu} href={'/contacto'}>
+                                    Contacto
+                                </Link>
+                            </motion.li>
 
                         </motion.ul>
 
@@ -218,6 +230,13 @@ const Header = () => {
                                 <Link href="/mercancia" legacyBehavior passHref>
                                     <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                                         Mercancia Oficial
+                                    </NavigationMenuLink>
+                                </Link>
+                            </NavigationMenuItem>
+                            <NavigationMenuItem>
+                                <Link href="/contacto" legacyBehavior passHref>
+                                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                                        Contacto
                                     </NavigationMenuLink>
                                 </Link>
                             </NavigationMenuItem>

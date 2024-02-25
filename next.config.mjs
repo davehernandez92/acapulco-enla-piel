@@ -9,6 +9,9 @@ const nextConfig = {
           },
         ],
       },
+      env: {
+        EMAIL_KEY: 'cHNK4tHsIlg2wmRJH',
+      },
 };
 
 export default nextConfig;
