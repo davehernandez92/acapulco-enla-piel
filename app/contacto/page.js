@@ -11,7 +11,7 @@ import { Toaster, toast } from "sonner";
 import contacto from '@/public/images/contact.webp'
 import styles from '../styles/contacto.module.css'
 
-export default function Contacto() {
+export default function ContactoPage() {
   
   const publicKey = process.env.EMAIL_KEY
   const form = useRef();
