@@ -1,0 +1,53 @@
+[
+    {
+      "id": "sotelo",
+      "name": "Tacos Sotelo",
+      "phoneNumber": "744 454 1265",
+      "email": null,
+      "website": null,
+      "youtube": "https://www.youtube.com/watch?v=9tTxJc8SXX8&ab_channel=AcapulcoEnLaPiel",
+      "facebook": "https://www.facebook.com/TacosSotelo",
+      "description": "Mi gente, lean bien lo que les voy a decir: el mejor pastor de Acapulco, se encuentra en Tacos Sotelo de la calle 13 en Av Ejido. Sé que suena atrevido, pero es algo que de verdad tienen que comprobar. Taquerías hay muchas en todo Acapulco y estilos de tacos al pastor, también, pero créanme cuando les digo que el mejor pastor de todo Acapulco se encuentra aquí. Si crees que es complicado llegar a la taquería, no te preocupes, manda un mensaje a sus redes sociales o llama por teléfono y con gusto te llevan tu pedido a domicilio o bien en algún punto medio a convenir. Tienes que probarlos, primo! ",
+      "images": [
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813325/restaurantes/sotelo/1_laqfrc.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813327/restaurantes/sotelo/6_skad1d.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813325/restaurantes/sotelo/3_uuxwem.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813326/restaurantes/sotelo/5_e04gtk.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813326/restaurantes/sotelo/4_hf2pza.webp"
+      ]
+    },
+    {
+      "id": "laFondita",
+      "name": "Restaurante La Fondita",
+      "phoneNumber": "744 454 9058",
+      "email": "lafonditaacapulco@gmail.com",
+      "website": null,
+      "youtube": "https://www.youtube.com/watch?v=P1SZ2mYb5UM&ab_channel=AcapulcoEnLaPiel",
+      "facebook": "https://www.facebook.com/lafonditaacapulco",
+      "description": "Una opción muy buena de comida mexicana y a buen precio en pleno corazón de la colonia Progreso en Acapulco. Y además cuenta con unos platillos deliciosos que te van a encantar y no solo eso, en los días jueves pozoleros tradicionales de Acapulco, puedes encontrar pozole pero también un caldo de res buenísimo, si es que buscas una alternativa al ya famoso platillo de los jueves. Sin duda un buen lugar para visitar. ",
+      "images": [
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813333/restaurantes/fondita/1_mbqi7e.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813334/restaurantes/fondita/2_we2bcx.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813334/restaurantes/fondita/3_jxsvqg.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813335/restaurantes/fondita/4_akngxa.webp"
+      ]
+    },
+    {
+      "id": "laLangosta",
+      "name": "Restaurante La Langosta",
+      "phoneNumber": "744 463 9185",
+      "email": null,
+      "website": null,
+      "youtube": "https://www.youtube.com/watch?v=VC23I8BAoHk&ab_channel=AcapulcoEnLaPiel",
+      "facebook": "https://www.facebook.com/profile.php?id=100063587770078",
+      "description": "Uno de los mejores restaurantes en todo Puerto Marqués, primo, de verdad. Excelente atención de su anfitrión el Sr. Sergio, quien realmente junto a su equipo ponen un gran empeño en el servicio y, por si fuera poco, sus platillos están bien servidos y llenadores, sin mencionar la innovación en cada uno de ellos y la calidad del sabor y el sazón. Restaurante La Langosta en Puerto Marqués, sin duda te va a encantar.  ",
+      "images": [
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813327/restaurantes/langosta/1_iaokm6.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813327/restaurantes/langosta/2_saahsq.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813328/restaurantes/langosta/3_k95jxz.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813329/restaurantes/langosta/6_z6zvgu.webp"
+      ]
+    }
+    
+  ]
+  

@@ -5,7 +5,7 @@ import * as React from "react"
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import nav from '@/public/images/navMenu.webp'
+import nav from '@/public/images/menuu.webp'
 
 import { cn } from "@/lib/utils"
 import logo from "@/public/images/logoN.png"
@@ -150,6 +150,18 @@ const Header = () => {
                                     transition: { delay: 0.33, duration: 0.3 },
                                 }}
                             >
+                                <Link onClick={toggleMenu} href={'/negocios'}>
+                                    Negocios
+                                </Link>
+                            </motion.li>
+                            <motion.li
+                                initial={{ opacity: 0, y: -10 }}
+                                whileInView={{
+                                    opacity: 1,
+                                    y: 0,
+                                    transition: { delay: 0.33, duration: 0.3 },
+                                }}
+                            >
                                 <Link onClick={toggleMenu} href={'/visita'}>
                                     Visita
                                 </Link>
@@ -216,6 +228,13 @@ const Header = () => {
                                 <Link href="/servicios" legacyBehavior passHref>
                                     <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                                         Servicios
+                                    </NavigationMenuLink>
+                                </Link>
+                            </NavigationMenuItem>
+                            <NavigationMenuItem>
+                                <Link href="/negocios" legacyBehavior passHref>
+                                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                                        Negocios
                                     </NavigationMenuLink>
                                 </Link>
                             </NavigationMenuItem>

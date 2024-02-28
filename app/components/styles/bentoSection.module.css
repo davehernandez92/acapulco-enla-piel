@@ -40,6 +40,13 @@
 
 
 @media screen and (min-width: 768px) {
+    .tabletPadding{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .servicios{
+        width: 715px;
+    }
     .wrapper {
         grid-template-columns: 2fr 1fr;
         
@@ -49,6 +56,10 @@
       }
 }
 @media screen and (min-width: 1020px) {
+    .tabletPadding{
+        padding-left: 8.5rem;
+        padding-right: 8.5rem;
+    }
     
     .card__horizontal{
         overflow: hidden;
@@ -112,6 +123,7 @@
         grid-area: visita;
     }
     .servicios{
+        width: unset;
         grid-area: servicio;
         justify-content: flex-end;
         

@@ -36,7 +36,7 @@ export default function ServiciosPage() {
       image: allan,
       alt: 'Imagen del Restaurante La Fondita',
       servicio: 'Fotografo de bodas y parejas',
-      url: 'https://allan-photographer.vercel.app/'
+      url: 'https:allanbanuelos.com'
 
     },
 
