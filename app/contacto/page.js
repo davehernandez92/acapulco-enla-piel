@@ -15,11 +15,13 @@ export default function ContactoPage() {
   
   const publicKey = process.env.EMAIL_KEY
   const form = useRef();
-
+  
+  
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phoneNumber, setPhoneNumber] = useState(""); // New state for phone number
   const [projectDetails, setProjectDetails] = useState("");
+  
 
 
 
@@ -55,13 +57,13 @@ export default function ContactoPage() {
     setEmail("");
     setPhoneNumber("");
     setProjectDetails("");
-    
+    window.location.href = '/enviado';
     
   })
   .catch((error) => {
     console.error('Error sending email:', error.text);
 
-    // Display error message in the toast
+   
     
   });
   };
@@ -135,7 +137,7 @@ export default function ContactoPage() {
                 className={styles.textarea}
               />
             </div>
-            <Toaster richColors position="bottom-right"/>
+            <Toaster richColors position="bottom-center"/>
             <Button onClick={() => toast.success('Tu mensaje se ha enviado!')} type="submit" className=" bg-slate-900 hover:bg-sky-900 mt-6 w-full md:w-[30%] md:mt-8">
               Enviar mensaje
             </Button>
