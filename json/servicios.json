@@ -11,9 +11,16 @@
         "facebook2": "https://www.facebook.com/DeaGarciaFotografia",
         "instagram": "https://www.instagram.com/sirenailustrada/",
         "description": "Geminiana de nacimiento, mente y corazón, soy fotógrafa de profesión y en mis ratos libres ilustro sentimientos encontrados en la música, en experiencias, y en Acapulco, mismos que plasmo en mi merch (playeras, tazas, y libretas) encuéntralos en mi cuenta de Instagram y Facebook. Me encantan los perros y los gatos. Mi proceso y tips de dibujo están en Tik Tok.",
+        "portada": [
+            {
+                "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1710852931/servicios/DEA/1_mworjt.webp",
+                "width": "600",
+                "height": "800"
+            }
+        ],
         "images": [
             {
-                "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1708400216/servicios/DEA/1_u0suli.webp",
+                "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1710852882/servicios/DEA/head_hv1bbn.webp",
                 "width": "600",
                 "height": "800"
             },

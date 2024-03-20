@@ -60,7 +60,7 @@ export default function HotelPage() {
                             {hotel.description}
                         </p>
                         <Image
-                            src={hotel.images[0].src}
+                            src={hotel.portada[0].src}
                             width={600}
                             height={400}
                             alt={`Imagen de ${hotel.name}`}
@@ -69,7 +69,7 @@ export default function HotelPage() {
 
                         />
                         <Image
-                            src={hotel.images[0].src}
+                            src={hotel.portada[0].src}
                             width={400}
                             height={500}
                             alt={`Imagen de ${hotel.name}`}
