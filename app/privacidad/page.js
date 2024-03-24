@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function PrivacidadPage() {
     return (
-        <div className=" animate mt-24 mb-[15rem] econtainerX flex flex-col lg:gap-4 md:w-full md:justify-center lg:w-[70%] lg:mx-auto">
+        <div className=" animate mt-24 mb-[15rem] containerX flex flex-col lg:gap-4 md:w-full md:justify-center lg:w-[70%] lg:mx-auto">
             <h1 className='md:text-[3rem] lg:text-[4rem]'>Nuestro Aviso de Privacidad. </h1>
 
             <div className='mt-5 flex flex-col gap-5 lg:mt-14'>

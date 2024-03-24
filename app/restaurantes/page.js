@@ -36,15 +36,7 @@ export default function ResturantePage() {
       url: '/restaurantes/laLangosta'
 
     },
-    {
-      title: 'Restaurante La Fondita',
-      image: fondita,
-      alt: 'Imagen del Restaurante La Fondita',
-      zona: 'Zona Diamante',
-      type: 'Restaurante',
-      url: '/restaurantes/laFondita'
-
-    },
+    
 
   ]
 

@@ -35,15 +35,15 @@ export default function Hotelpage() {
     },
 
 
-    {
-      title: 'Hotel Olimar',
-      image: olimar,
-      alt: 'Imagen del Hotel Olimar',
-      zona: 'Caletilla',
-      type: 'Hotel',
-      url: '/hoteles/olimar'
+    // {
+    //   title: 'Hotel Olimar',
+    //   image: olimar,
+    //   alt: 'Imagen del Hotel Olimar',
+    //   zona: 'Caletilla',
+    //   type: 'Hotel',
+    //   url: '/hoteles/olimar'
 
-    },
+    // },
     {
       title: 'Hotel Donde mira el sol',
       image: sol,
@@ -53,78 +53,78 @@ export default function Hotelpage() {
       url: '/hoteles/dondeMiraElSol'
 
     },
-    {
-      title: 'Hotel Carlisa',
-      image: carlisa,
-      alt: 'Imagen del Hotel Carlisa',
-      zona: 'Zona centro',
-      type: 'Hotel',
-      url: '/hoteles/carlisa'
+    // {
+    //   title: 'Hotel Carlisa',
+    //   image: carlisa,
+    //   alt: 'Imagen del Hotel Carlisa',
+    //   zona: 'Zona centro',
+    //   type: 'Hotel',
+    //   url: '/hoteles/carlisa'
 
-    },
-    {
-      title: 'Hotel Rove',
-      image: rove,
-      alt: 'Imagen de Hotel Rove',
-      zona: 'Zona centro',
-      type: 'Hotel',
-      url: '/hoteles/rove'
+    // },
+    // {
+    //   title: 'Hotel Rove',
+    //   image: rove,
+    //   alt: 'Imagen de Hotel Rove',
+    //   zona: 'Zona centro',
+    //   type: 'Hotel',
+    //   url: '/hoteles/rove'
 
-    },
-    {
-      title: 'Bungalows Puerto Angel',
-      image: puertoAngel,
-      alt: 'Imagen de Bungalows Puerto Angel',
-      zona: 'Caletilla',
-      type: 'Bungalows',
-      url: '/hoteles/puertoAngel'
+    // },
+    // {
+    //   title: 'Bungalows Puerto Angel',
+    //   image: puertoAngel,
+    //   alt: 'Imagen de Bungalows Puerto Angel',
+    //   zona: 'Caletilla',
+    //   type: 'Bungalows',
+    //   url: '/hoteles/puertoAngel'
 
-    },
-    {
-      title: 'Bungalows Olivares',
-      image: olivares,
-      alt: 'Imagen de Bungalows Olivares',
-      zona: 'Caletilla',
-      type: 'Bungalows',
-      url: '/hoteles/bungalowsOlivares'
+    // },
+    // {
+    //   title: 'Bungalows Olivares',
+    //   image: olivares,
+    //   alt: 'Imagen de Bungalows Olivares',
+    //   zona: 'Caletilla',
+    //   type: 'Bungalows',
+    //   url: '/hoteles/bungalowsOlivares'
 
-    },
-    {
-      title: 'Hotel Del Valle',
-      image: delValle,
-      alt: 'Imagen del Hotel Del Valle',
-      zona: 'Fracc Magallanes',
-      type: 'Hotel',
-      url: '/hoteles/hotelDelValle'
+    // },
+    // {
+    //   title: 'Hotel Del Valle',
+    //   image: delValle,
+    //   alt: 'Imagen del Hotel Del Valle',
+    //   zona: 'Fracc Magallanes',
+    //   type: 'Hotel',
+    //   url: '/hoteles/hotelDelValle'
 
-    },
-    {
-      title: 'Hotel Miramar',
-      image: miramar,
-      alt: 'Fracc Magallanes',
-      zona: 'Zona centro',
-      type: 'Hotel',
-      url: '/hoteles/hotelMiramar'
+    // },
+    // {
+    //   title: 'Hotel Miramar',
+    //   image: miramar,
+    //   alt: 'Fracc Magallanes',
+    //   zona: 'Zona centro',
+    //   type: 'Hotel',
+    //   url: '/hoteles/hotelMiramar'
 
-    },
-    {
-      title: 'Hotel La Jungla',
-      image: laJungla,
-      alt: 'Imagen del Hotel La Jungle',
-      zona: 'Zona Tradicional',
-      type: 'Hotel',
-      url: '/hoteles/hotelLaJungla'
+    // },
+    // {
+    //   title: 'Hotel La Jungla',
+    //   image: laJungla,
+    //   alt: 'Imagen del Hotel La Jungle',
+    //   zona: 'Zona Tradicional',
+    //   type: 'Hotel',
+    //   url: '/hoteles/hotelLaJungla'
 
-    },
-    {
-      title: 'Suites Vicky',
-      image: vicky,
-      alt: 'Imagen de Suites Vicky',
-      zona: 'Fracc Magallanes',
-      type: 'Hotel',
-      url: '/hoteles/suitesVicky'
+    // },
+    // {
+    //   title: 'Suites Vicky',
+    //   image: vicky,
+    //   alt: 'Imagen de Suites Vicky',
+    //   zona: 'Fracc Magallanes',
+    //   type: 'Hotel',
+    //   url: '/hoteles/suitesVicky'
 
-    },
+    // },
     {
       title: 'Hotel De los Reyes',
       image: reyes,
