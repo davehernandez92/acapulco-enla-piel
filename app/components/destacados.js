@@ -44,14 +44,7 @@ export function DestacadosCarousel() {
             url: '/hoteles/nautilus'
 
         },
-        { 
-            title: 'Hotel Olimar',
-            image: olimar,
-            alt: 'Imagen del Hotel Olimar',
-            type: 'Hotel',
-            url: '/hoteles/olimar'
-
-        },
+        
     ]
   return (
     

@@ -9,8 +9,10 @@ import visita from '@/public/images/visitar.webp'
 import servicios from '@/public/images/servicios.webp'
 import youtube from '@/public/images/youtube.webp'
 import youtubeSq from '@/public/images/youtube2.webp'
+import bienesSq from '@/public/images/bienesMobile.webp'
 import otis from '@/public/images/otis.webp'
 import negocios from '@/public/images/negocios.webp'
+import galeria from '@/public/images/headerGaleria.webp'
 
 import styles from './styles/bentoSection.module.css'
 
@@ -117,7 +119,8 @@ export default function BentoSection() {
 
 
             {/* Third row  */}
-            <div className={`grid grid-cols-1  gap-3 mt-3 lg:h-[380px] `}>
+            <div className={`grid grid-cols-1 md:grid-cols-3 gap-3 mt-3 lg:h-[380px] ${styles.wrapper2}`}>
+
                 <div className={`relative rounded-2xl  ${styles.card__horizontal}`}>
                     <Image
                         src={servicios}
@@ -133,7 +136,7 @@ export default function BentoSection() {
                         alt='Imagen de Acapulco'
                         className={`w-full min-h-[200px] object-cover rounded-2xl md:min-h-auto md:hidden ${styles.img__horizontal}`}
                     />
-                    <div className={`absolute bottom-0 left-0 w-full h-full bg-black bg-opacity-50 rounded-2xl  ${styles.card__overlay}`}>
+                     <div className={`absolute bottom-0 left-0 w-full h-full bg-black bg-opacity-50 rounded-2xl  ${styles.card__overlay}`}>
                         <div className={`w-full h-full  p-3 ${styles.card__txt}`}>
                             <h2>Servicios</h2>
 
@@ -143,9 +146,54 @@ export default function BentoSection() {
                     </div>
                 </div>
 
+                <div className={`relative rounded-2xl  ${styles.card__Sq}`}>
+                    <Image
+                        src={bienesSq}
+                        width={700}
+                        height={600}
+                        alt='Imagen de Bienes raices en Acapulco'
+                        className={`w-full h-full object-cover rounded-2xl ${styles.img__sq}`}
+                    />
+                    <div className={`absolute bottom-0 left-0 w-full h-full bg-black bg-opacity-50 rounded-2xl ${styles.card__overlay}`}>
+                        <div className={`w-full h-full p-3 ${styles.card__txt}`}>
+                            <h2>Bienes Raices</h2>
+                            <p>¿Deseas adquirir un nuevo inmueble?</p>
+                            <Link href={'/bienes'} className={buttonVariants({ variant: "outline" })}>Ver más</Link>
+                        </div>
+                    </div>
+                </div>
+                
+
             </div>
 
+            
+
             {/* 4th row  */}
+            <div className={` w-full grid grid-cols-1 mt-3  lg:h-[380px`}>
+                <div className={`relative rounded-2xl  ${styles.card__horizontal}`}>
+                    <Image
+                        src={galeria}
+                        width={1600}
+                        height={700}
+                        alt='Imagen de Acapulco'
+                        className={` w-full min-h-[200px] object-cover rounded-2xl md:min-h-auto ${styles.img__horizontal}`}
+                    />
+                    
+                    <div className={`absolute bottom-0 left-0 w-full h-full bg-black bg-opacity-50 rounded-2xl ${styles.card__overlay}`}>
+                        <div className={`w-full h-full  p-3 ${styles.card__txt}`}>
+                            <h2>Galeria</h2>
+
+                            <p>Adentrate y revisa nuestra seleccion de imagenes, checa nuestra galeria!</p>
+                            <Link href={'/galeria'} className={buttonVariants({ variant: "outline" })}>Ver más</Link>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+            </div>
+
+            {/* 5th row  */}
             <div className={`grid grid-cols-1 md:grid-cols-3 gap-3 mt-3 md:mb-40 lg:h-[380px] ${styles.wrapper}`}>
                 <div className={`relative rounded-2xl  ${styles.card__horizontal}`}>
                     <Image
@@ -171,6 +219,8 @@ export default function BentoSection() {
                         </div>
                     </div>
                 </div>
+
+
                 <div className={`relative rounded-2xl  ${styles.card__Sq}`}>
                     <Image
                         src={otis}

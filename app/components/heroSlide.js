@@ -5,7 +5,7 @@ import Image from 'next/image';
 import styles from './styles/heroSlide.module.css'
 import logo from '../../public/images/acapulcoW.png'
 import image1 from '../../public/images/home.webp'
-import image2 from '../../public/images/GUANABANA.webp'
+import image2 from '../../public/images/main.webp'
 
 
 const HeroSlider = () => {

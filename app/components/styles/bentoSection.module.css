@@ -2,6 +2,10 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+  .wrapper2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 .card__horizontal {
     position: relative;
 }
@@ -49,6 +53,10 @@
     }
     .wrapper {
         grid-template-columns: 2fr 1fr;
+        
+      }
+      .wrapper2 {
+        grid-template-columns: 1fr 2fr;
         
       }
       .img__horizontal {
