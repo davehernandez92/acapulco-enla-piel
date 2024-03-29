@@ -2,13 +2,10 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { HiOutlineMapPin } from "react-icons/hi2";
-
 import bienesMobile from '@/public/images/headerBienesMobile.webp'
 import bienesHeader from '@/public/images/headerBienes.webp'
 
-import sotelo from '@/public/images/restaurantes/sotelo/1.webp'
-import langosta from '@/public/images/restaurantes/langosta/1.webp'
+import maral from '@/public/images/maral.jpg'
 
 import styles from '../styles/hoteles.module.css'
 
@@ -17,32 +14,18 @@ export default function BienesPage() {
   const restaurantes = [
 
     {
-      title: 'Tacos Sotelo',
-      image: sotelo,
-      alt: 'Imagen de Tacos Sotelo',
-      zona: 'Zona Poniente',
-      type: 'Taqueria',
-      url: '/bienes/sotelo'
+      title: 'Maral Bienes raices',
+      image: maral,
+      alt: 'Imagen de Agente inmobiliario acapulco',
+      type: 'Inmobiliario',
+      url: '/bienes/maral'
 
     },
-
-
-    {
-      title: 'Restaurante La Langosta',
-      image: langosta,
-      alt: 'Imagen de restaurante La Langosta',
-      zona: 'Puerto Marqués',
-      type: 'Restaurante',
-      url: '/bienes/laLangosta'
-
-    },
-    
-
   ]
 
   return (
     <main className=' animate '>
-    
+
       <div className='section' >
         <Image
           src={bienesHeader}
@@ -63,9 +46,9 @@ export default function BienesPage() {
       <div className={`hidden md:flex mt-2 lg:mt-5  flex-col gap-5  ${styles.heroDiv}`}>
         <h1 className=' font-bold text-4xl lg:text-[3.5rem]'>Bienes Raices</h1>
         <p className='md:w-[89%] lg:w-[70%]'>Embárcate en un viaje a través de una amplia gama de propiedades, desde acogedoras casas familiares hasta lujosas residencias frente al mar, que capturan la auténtica esencia del mercado inmobiliario en Acapulco. Descubre tu rincón perfecto para vivir en este destino paradisíaco, donde cada propiedad ofrece un estilo de vida único.
-</p>
+        </p>
         <p className='mb-10'>
-¡Bienvenido a tu paraíso inmobiliario en Acapulco!</p>
+          ¡Bienvenido a tu paraíso inmobiliario en Acapulco!</p>
       </div>
 
       <section className='containerX mt-24 md:mt-32 lg:mt-[5rem]'>
@@ -85,7 +68,6 @@ export default function BienesPage() {
                   <p className='text-gray-500 text-[14px]'>{restaurante.type}</p>
                   <h3 className={`text-xl font-semibold mb-2 ${styles.title}`}>{restaurante.title}</h3>
                   <div className='flex items-center gap-2'>
-                    <HiOutlineMapPin className='text-gray-600' />
                     <p className='text-gray-600'>{restaurante.zona}</p>
                   </div>
                 </div>

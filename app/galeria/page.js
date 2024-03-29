@@ -2,18 +2,17 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import otisGalery from '@/json/otisGaleria.json';
+import galeryInfo from '@/json/galeria.json';
 import { motion } from 'framer-motion'
-import otis from '@/public/images/otis4.webp'
-import otisMobile from '@/public/images/otisMobile.webp'
+import header from '@/public/images/headerGaleria.webp'
 import youtube from '@/public/images/youtubeBlack.png';
 import styles from '@/app/components/styles/galleryGrid.module.css'
 
 export default function GaleriaPage() {
-  const galeria = otisGalery
+  const galeria = galeryInfo
   return (
     <main>
-      <div className='w-100 h-100 relative  bg-slate-950 '>
+      
         <motion.div initial={{ opacity: 0, y: 10 }}
           whileInView={{
             opacity: 1,
@@ -22,74 +21,23 @@ export default function GaleriaPage() {
           }}
           viewport={{ once: true }}
         >
+          
           <Image
-            src={otisMobile}
-            width={650}
-            height={1000}
-            alt='Imagen de Acapulco OTIS'
-            className=' w-full h-[90vh] z-[1] md:hidden'
-
-          />
-          <Image
-            src={otis}
+            src={header}
             width={2000}
-            height={1000}
-            alt='Imagen de Acapulco OTIS'
-            className=' hidden md:block  w-full  z-[1]'
+            height={600}
+            alt='Imagen de Acapulco'
+            className=' h-auto  w-full'
 
           />
         </motion.div>
-        <div className='absolute z-[2] top-[30%] md:top-[15%] w-full flex gap-2 justify-center '>
-          <motion.h1 initial={{ opacity: 0, y: 10 }}
-            whileInView={{
-              opacity: 1,
-              y: 0,
-              transition: { delay: 0.13, duration: 0.9 },
-            }} className='text-[9.2rem] text-slate-200 md:text-[10.2rem] md:text-slate-300 lg:text-[25rem] lg:text-slate-200'>O</motion.h1>
-          <motion.h1 initial={{ opacity: 0, y: 10 }}
-            whileInView={{
-              opacity: 1,
-              y: 0,
-              transition: { delay: 0.15, duration: 0.9 },
-            }} className='text-[9.2rem] text-slate-200 md:text-[10.2rem] md:text-slate-300 lg:text-[25rem] lg:text-slate-200'>T</motion.h1>
-          <motion.h1 initial={{ opacity: 0, y: 10 }}
-            whileInView={{
-              opacity: 1,
-              y: 0,
-              transition: { delay: 0.18, duration: 0.9 },
-            }} className='text-[9.2rem] text-slate-200 md:text-[10.2rem] md:text-slate-300 lg:text-[25rem] lg:text-slate-200'>I</motion.h1>
-          <motion.h1 initial={{ opacity: 0, y: 10 }}
-            whileInView={{
-              opacity: 1,
-              y: 0,
-              transition: { delay: 0.18, duration: 0.9 },
-            }} className='text-[9.2rem] text-slate-200 md:text-[10.2rem] md:text-slate-300 lg:text-[25rem] lg:text-slate-200'>S</motion.h1>
-        </div>
+        
 
-      </div>
-      <div className='containerP my-[1rem] flex flex-col gap-5 text-center lg:gap-8 lg:items-center lg:justify-center lg:h-[60vh]'>
-        <motion.p initial={{ opacity: 0, y: 7 }}
-          whileInView={{
-            opacity: 1,
-            y: 0,
-            transition: { duration: 0.3 },
-          }}
-          viewport={{ once: true }} className='px-[1rem] md:text-[1.8rem] lg:w-[60%]'>
-          Galería exclusiva de nuestra experiencia con el huracán más poderoso que haya golpeado a Acapulco alguna vez.
-        </motion.p>
-        <motion.p initial={{ opacity: 0, y: 7 }}
-          whileInView={{
-            opacity: 1,
-            y: 0,
-            transition: { delay: 0.2, duration: 0.3 },
-          }}
-          viewport={{ once: true }} className='px-[1rem] md:text-[1.8rem] lg:w-[60%]'>
-          Fotografías que no hemos publicado y que no vas a encontrar en otro lugar, solamente aquí en nuestra página web.
-        </motion.p>
-
-      </div>
+      
+      
       <div>
       <h2 className='mt-10 mb-4 lg:mt-36 text-center text-[2.5rem] lg:text-[3.8rem]'> Galería </h2>
+      <p className='text-center text-[2rem] lg:text-[2.4rem]'> Este es un pequeño vistazo de Acapulco</p>
             <div className={`px-3 ${styles.gallery__grid}`}>
                 
                 {galeria.images.map((image, index) => (
@@ -97,9 +45,10 @@ export default function GaleriaPage() {
                         <Image
                             
                             src={image.src}
-                            alt={`Imagen de Acapulco OTIS `}
+                            alt={`Imagen de Acapulco `}
                             width={image.width}
                             height={image.height}
+                            className='animate'
                         />
                     </div>
                 ))}
@@ -107,7 +56,7 @@ export default function GaleriaPage() {
 
       </div>
       <div className='containerP my-10 md:my-[6rem] lg:my-[10rem]'>
-        <h2 className=' text-[1.8rem] md:text-center lg:text-[2.8rem]'>Checa nuestro documental en el canal de YouTube.</h2>
+        <h2 className=' text-[1.8rem] md:text-center lg:text-[2.8rem]'>Checa nuestro canal de YouTube.</h2>
 
         <Link title='Video de youtube' target='blank' href={'https://www.youtube.com/watch?v=BRuMDCfq_gE&ab_channel=AcapulcoEnLaPiel'}>
           <div className='relative group md:w-[600px] m-auto lg:w-[800px] '>

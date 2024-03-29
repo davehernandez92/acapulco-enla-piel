@@ -1,0 +1,22 @@
+[
+    {
+      "id": "maral",
+      "name": "Maral Bienes Raices",
+      "phoneNumber": "7444095627",
+      "email": null,
+      "website": null,
+      "youtube": "https://www.youtube.com/watch?v=9tTxJc8SXX8&ab_channel=AcapulcoEnLaPiel",
+      "facebook": "https://www.facebook.com/TacosSotelo",
+      "description": "¿Buscas casa en Acapulco? Nosotros podemos ayudarte. A través de MARAL BIENES RAÍCES, puedes acceder a un catálogo de propiedades que seguramente se ajustarán a tus necesidades. ",
+      "description2": "Ya sea que busques una casa o departamento, sin duda son los mejores para ayudarte a elegir por ubicación, precio, costo beneficio y todo lo que tú consideres necesario para tu comodidad y satisfacción. ",
+      "images": [
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813325/restaurantes/sotelo/1_laqfrc.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813327/restaurantes/sotelo/6_skad1d.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813325/restaurantes/sotelo/3_uuxwem.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813326/restaurantes/sotelo/5_e04gtk.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813326/restaurantes/sotelo/4_hf2pza.webp"
+      ]
+    }
+    
+  ]
+  
