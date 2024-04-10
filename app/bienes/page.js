@@ -50,8 +50,8 @@ A través de MARAL BIENES RAÍCES, puedes acceder a un catálogo de propiedades 
         <Image className='w-2/3 h-auto mx-auto mt-10 md:h-1/3 md:w-auto' src={maral} alt='Imagen Maral' width={450} height={800} />
       </div>
 
-      <div className={`containerP md:flex mt-2  flex-col gap-5 md:px-[7rem]`}>
-        <h2>Checa estas propiedades primo</h2>
+      <div className={`containerP md:flex mt-10  flex-col gap-5 md:px-[7rem]`}>
+        <h2 className=' font-bold mb-5 text-3xl lg:text-[3rem] text-center '>Checa estas propiedades primo</h2>
         
         <PropiedadesCarousel/>
       </div>
