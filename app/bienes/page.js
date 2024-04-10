@@ -8,20 +8,11 @@ import bienesHeader from '@/public/images/headerBienes.webp'
 import maral from '@/public/images/maral.jpg'
 
 import styles from '../styles/hoteles.module.css'
+import { PropiedadesCarousel } from '../components/propiedadesCarousel'
 
 export default function BienesPage() {
 
-  const restaurantes = [
-
-    {
-      title: 'Maral Bienes raices',
-      image: maral,
-      alt: 'Imagen de Agente inmobiliario acapulco',
-      type: 'Inmobiliario',
-      url: '/bienes/maral'
-
-    },
-  ]
+  
 
   return (
     <main className=' animate '>
@@ -43,39 +34,27 @@ export default function BienesPage() {
         />
       </div>
 
-      <div className={`hidden md:flex mt-2 lg:mt-5  flex-col gap-5  ${styles.heroDiv}`}>
-        <h1 className=' font-bold text-4xl lg:text-[3.5rem]'>Bienes Raices</h1>
-        <p className='md:w-[89%] lg:w-[70%]'>Embárcate en un viaje a través de una amplia gama de propiedades, desde acogedoras casas familiares hasta lujosas residencias frente al mar, que capturan la auténtica esencia del mercado inmobiliario en Acapulco. Descubre tu rincón perfecto para vivir en este destino paradisíaco, donde cada propiedad ofrece un estilo de vida único.
+      <div className={` animate containerP md:flex mt-2 lg:mt-5  flex-col gap-5  ${styles.heroDiv}`}>
+        <h1 className=' font-bold mb-5 text-4xl lg:text-[3.5rem] '>Bienes Raices</h1>
+        <h2 className='  md:w-[89%] lg:w-[70%]'>¿Buscas casa en Acapulco? </h2>
+        <p className=' md:w-[89%] lg:w-[70%]'> Nosotros podemos ayudarte.
+A través de MARAL BIENES RAÍCES, puedes acceder a un catálogo de propiedades que seguramente se ajustarán a tus necesidades. Ya sea que busques una casa o departamento, sin duda son los mejores para ayudarte a elegir por ubicación, precio, costo beneficio y todo lo que tú consideres necesario para tu comodidad y satisfacción.
         </p>
         <p className='mb-10'>
-          ¡Bienvenido a tu paraíso inmobiliario en Acapulco!</p>
+        Asesoría y amabilidad totalmente personalizada, es lo que caracteriza el servicio.</p>
+
+        <p className='md:w-[89%] lg:w-[70%]'>Si buscas casa o departamento, ya sea amueblado o sin amueblar, para RENTA en periodos vacacionales, no dudes en llamar o contactar a través de sus redes sociales, ya que también son especializados en el tema.
+
+        </p>
+
+        <Image className='w-2/3 h-auto mx-auto mt-10 md:h-1/3 md:w-auto' src={maral} alt='Imagen Maral' width={450} height={800} />
       </div>
 
-      <section className='containerX mt-24 md:mt-32 lg:mt-[5rem]'>
-        <h2 className='font-bold text-3xl md:hidden'>Restaurantes</h2>
-        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4'>
-          {restaurantes.map((restaurante => (
-            <Link key={restaurante.title} href={restaurante.url} className={`${styles.card}`}>
-              <div className={`my-5 rounded-2xl overflow-hidden border border-gray-200 shadow-md  ${styles.card}`}>
-                <Image
-                  src={restaurante.image}
-                  alt={restaurante.alt}
-                  width={restaurante.width}
-                  height={restaurante.height}
-                  className={`w-full  object-cover ${styles.img}`}
-                />
-                <div className='p-4 '>
-                  <p className='text-gray-500 text-[14px]'>{restaurante.type}</p>
-                  <h3 className={`text-xl font-semibold mb-2 ${styles.title}`}>{restaurante.title}</h3>
-                  <div className='flex items-center gap-2'>
-                    <p className='text-gray-600'>{restaurante.zona}</p>
-                  </div>
-                </div>
-              </div>
-            </Link>
-          )))}
-        </div>
-      </section>
+      <div className={`containerP md:flex mt-2  flex-col gap-5 md:px-[7rem]`}>
+        <h2>Checa estas propiedades primo</h2>
+        
+        <PropiedadesCarousel/>
+      </div>
     </main>
   )
 }
