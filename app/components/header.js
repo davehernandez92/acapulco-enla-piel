@@ -174,8 +174,8 @@ const Header = () => {
                                     transition: { delay: 0.33, duration: 0.3 },
                                 }}
                             >
-                                <Link onClick={toggleMenu} href={'/mercancia'}>
-                                    Mercancia Oficial
+                                <Link onClick={toggleMenu} href={'/bienes'}>
+                                    Bienes Raices
                                 </Link>
                             </motion.li>
                             <motion.li
@@ -246,9 +246,9 @@ const Header = () => {
                                 </Link>
                             </NavigationMenuItem>
                             <NavigationMenuItem>
-                                <Link href="/mercancia" legacyBehavior passHref>
+                                <Link href="/bienes" legacyBehavior passHref>
                                     <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                                        Mercancia Oficial
+                                        Bienes Raices
                                     </NavigationMenuLink>
                                 </Link>
                             </NavigationMenuItem>
