@@ -1,22 +1,135 @@
 [
-    {
-      "id": "maral",
-      "name": "Maral Bienes Raices",
-      "phoneNumber": "7444095627",
-      "email": null,
-      "website": null,
-      "youtube": "https://www.youtube.com/watch?v=9tTxJc8SXX8&ab_channel=AcapulcoEnLaPiel",
-      "facebook": "https://www.facebook.com/TacosSotelo",
-      "description": "¿Buscas casa en Acapulco? Nosotros podemos ayudarte. A través de MARAL BIENES RAÍCES, puedes acceder a un catálogo de propiedades que seguramente se ajustarán a tus necesidades. ",
-      "description2": "Ya sea que busques una casa o departamento, sin duda son los mejores para ayudarte a elegir por ubicación, precio, costo beneficio y todo lo que tú consideres necesario para tu comodidad y satisfacción. ",
-      "images": [
-        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813325/restaurantes/sotelo/1_laqfrc.webp",
-        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813327/restaurantes/sotelo/6_skad1d.webp",
-        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813325/restaurantes/sotelo/3_uuxwem.webp",
-        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813326/restaurantes/sotelo/5_e04gtk.webp",
-        "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813326/restaurantes/sotelo/4_hf2pza.webp"
-      ]
-    }
+  {
+    "id": "1",
+    "name": "Departamento cerca de Sam's Club",
+    "description": [
+      "Bellos departamentos en venta cerca de sam's club, diana costera",
+      "115m² construcción habitable",
+      "Este inmueble cuenta con: 3 recamaras con clóset, 2 baños completos, cocina integral con barra, balcon, 1 estacionamiento techado, cuarto de servicio y espacio de tendido",
+      "SOLO CRÉDITO BANCARIO, INFONAVIT TOTAL."
+  ],
+    "zona": "Diana",
+    "details": {
+      "area": "115m²",
+      "habitaciones": "3 ",
+      "banios": "2",
+      "amenidades": [
+        "Acabados en madera",
+        "Mármol",
+        "Ramaleo para tv",
+        "A/C",
+        "Instalaciones para gas estacionario",
+        "Tanque individual de agua",
+        "Área común",
+        "Alberca",
+        "Terraza con pergola",
+        "Porton eléctrico",
+        "Cisterna"
+    ]
     
-  ]
-  
+    
+    },
+    "precio": "$1,950,000.00",
+    "url": "/bienes/1",
+    "images" : [
+      {
+        "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1712858428/bienes/sams/1_znhevm.webp",
+        "width": "700",
+        "height": "450"
+    },
+    {
+        "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1712858436/bienes/sams/IMG-20240326-WA0076_xuoess.webp",
+        "width": "450",
+        "height": "600"
+    },
+    {
+        "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1712858432/bienes/sams/IMG-20240326-WA0075_vwi1zz.webp",
+        "width": "550",
+        "height": "800"
+    },
+    {
+        "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1712858418/bienes/sams/IMG-20240326-WA0078_tbqnxk.webp",
+        "width": "450",
+        "height": "800"
+    },
+    {
+        "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1712858426/bienes/sams/IMG-20240326-WA0073_g1fzrf.webp",
+        "width": "500",
+        "height": "700"
+    
+    },
+    {
+        "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1712858416/bienes/sams/IMG-20240326-WA0080_pgl5vh.webp",
+        "width": "500",
+        "height": "700"
+    
+    }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Tulipanes Casa En Venta",
+    "description": [
+        
+        "Venta De Casa En Fracc. Tulipanes Prototipo Zafiro.",
+        "74m² Construcción y 72m² Terreno",
+        
+        "Ubicada En Carretera Cayaco Villa Tulipanes 2ª Seccion.",
+        "El Fraccionamiento Cuenta Con Vigilancia Las 24hrs.",
+        "Consta De Planta Baja, 1 Recamara, Estancia, Comedor, Cocina, Area De Servicio, Medio Baño, 1 Estacionamiento, Planta Alta, 2 Recámaras, Baño Completo, Balcon",
+
+        "Cuota De Mantenimiento de $250.00, incluye Vigilancia, Recolección De Basura, Areas Verdes.",
+      
+        "Se Reciben Todos Los Créditos"
+    ],
+    "zona": "Carretera Cayaco Villa Tulipanes",
+    "details": {
+        "area": "74m²",
+        "habitaciones": "3",
+        "banios": "2",
+        "amenidades": [
+            "Vigilancia",
+            "Mantenimiento",
+            "Estacionamiento para 1 vehiculo",
+            "Balcon"
+            
+        ]
+    },
+    "precio": "$920,000.00 (Negociable)",
+    "url": "/bienes/2",
+    "images" : [
+      {
+        "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1712857991/bienes/tulipanes/IMG-20240326-WA0066_i20fgk.webp",
+        "width": "700",
+        "height": "900"
+    },
+    {
+        "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1712857992/bienes/tulipanes/IMG-20240326-WA0067_kyvhtm.webp",
+        "width": "750",
+        "height": "900"
+    },
+    {
+        "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1712857993/bienes/tulipanes/IMG-20240326-WA0068_vrogni.webp",
+        "width": "750",
+        "height": "900"
+    },
+    {
+        "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1712857994/bienes/tulipanes/IMG-20240326-WA0069_cfnwr8.webp",
+        "width": "750",
+        "height": "900"
+    },
+    {
+        "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1712857996/bienes/tulipanes/IMG-20240326-WA0070_xv2n7r.webp",
+        "width": "750",
+        "height": "900"
+    
+    },
+    {
+        "src": "https://res.cloudinary.com/dt3h0p239/image/upload/v1712857997/bienes/tulipanes/IMG-20240326-WA0071_psesfl.webp",
+        "width": "750",
+        "height": "900"
+    
+    }
+    ]
+  }
+]
