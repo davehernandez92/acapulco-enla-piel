@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { buttonVariants } from "@/components/ui/button"
 import restaurantes from '@/public/images/restaurantes.webp'
-import hoteleSq from '@/public/images/hotelSquare.webp'
+import hoteleSq from '@/public/images/hoteles.webp'
 import mercancia from '@/public/images/mercancia.webp'
 import visita from '@/public/images/visitar.webp'
 import servicios from '@/public/images/servicios.webp'
@@ -25,8 +25,28 @@ export default function BentoSection() {
             <div className={`grid grid-cols-1 md:grid-cols-3 gap-3 lg:h-[380px] ${styles.wrapper}`}>
                 <div className={`relative rounded-2xl  ${styles.card__horizontal}`}>
                     <Image
-                        src={restaurantes}
+                        src={hoteleSq}
                         width={1600}
+                        height={700}
+                        alt='Imagen de hotel en Acapulco'
+                        className={`w-full h-full object-cover rounded-2xl ${styles.img__horizontal}`}
+                    />
+                    <div className={`absolute bottom-0 left-0 w-full h-full bg-black bg-opacity-50 rounded-2xl ${styles.card__overlay}`}>
+                        <div className={`w-full h-full p-3 ${styles.card__txt}`}>
+                            <h2>Hoteles</h2>
+                            <p>¿Buscas hospedaje?</p>
+                            <p>Ve nuestras sugerencias</p>
+                            <Link href={'/hoteles'} className={buttonVariants({ variant: "outline" })}>Ver más</Link>
+                        </div>
+                    </div>
+                </div>
+                <div className={`relative rounded-2xl  ${styles.card__Sq}`}>
+
+
+
+                    <Image
+                        src={restaurantes}
+                        width={700}
                         height={700}
                         alt='Imagen de Restaurantes en Acapulco'
                         className={`w-full min-h-[200px] object-cover rounded-2xl md:min-h-auto ${styles.img__horizontal}`}
@@ -37,23 +57,6 @@ export default function BentoSection() {
                             <p>¿Buscas gastronomía?</p>
                             <p>El verdadero sabor de Acapulco</p>
                             <Link href={'/restaurantes'} className={buttonVariants({ variant: "outline" })}>Ver más</Link>
-                        </div>
-                    </div>
-                </div>
-                <div className={`relative rounded-2xl  ${styles.card__Sq}`}>
-                    <Image
-                        src={hoteleSq}
-                        width={700}
-                        height={700}
-                        alt='Imagen de hotel en Acapulco'
-                        className={`w-full h-full object-cover rounded-2xl ${styles.img__sq}`}
-                    />
-                    <div className={`absolute bottom-0 left-0 w-full h-full bg-black bg-opacity-50 rounded-2xl ${styles.card__overlay}`}>
-                        <div className={`w-full h-full p-3 ${styles.card__txt}`}>
-                            <h2>Hoteles</h2>
-                            <p>¿Buscas hospedaje?</p>
-                            <p>Ve nuestras sugerencias</p>
-                            <Link href={'/hoteles'} className={buttonVariants({ variant: "outline" })}>Ver más</Link>
                         </div>
                     </div>
                 </div>
@@ -136,7 +139,7 @@ export default function BentoSection() {
                         alt='Imagen de Acapulco'
                         className={`w-full min-h-[200px] object-cover rounded-2xl md:min-h-auto md:hidden ${styles.img__horizontal}`}
                     />
-                     <div className={`absolute bottom-0 left-0 w-full h-full bg-black bg-opacity-50 rounded-2xl  ${styles.card__overlay}`}>
+                    <div className={`absolute bottom-0 left-0 w-full h-full bg-black bg-opacity-50 rounded-2xl  ${styles.card__overlay}`}>
                         <div className={`w-full h-full  p-3 ${styles.card__txt}`}>
                             <h2>Servicios</h2>
 
@@ -162,11 +165,11 @@ export default function BentoSection() {
                         </div>
                     </div>
                 </div>
-                
+
 
             </div>
 
-            
+
 
             {/* 4th row  */}
             <div className={` w-full grid grid-cols-1 mt-3  lg:h-[380px`}>
@@ -178,7 +181,7 @@ export default function BentoSection() {
                         alt='Imagen de Acapulco'
                         className={` w-full min-h-[200px] object-cover rounded-2xl md:min-h-auto ${styles.img__horizontal}`}
                     />
-                    
+
                     <div className={`absolute bottom-0 left-0 w-full h-full bg-black bg-opacity-50 rounded-2xl ${styles.card__overlay}`}>
                         <div className={`w-full h-full  p-3 ${styles.card__txt}`}>
                             <h2>Galeria</h2>
@@ -190,7 +193,7 @@ export default function BentoSection() {
                 </div>
 
 
-                
+
             </div>
 
             {/* 5th row  */}

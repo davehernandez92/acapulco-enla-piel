@@ -62,6 +62,7 @@
       .img__horizontal {
         height: 100%;
       }
+      
 }
 @media screen and (min-width: 1020px) {
     .tabletPadding{

@@ -35,15 +35,15 @@ export default function Hotelpage() {
     },
 
 
-    // {
-    //   title: 'Hotel Olimar',
-    //   image: olimar,
-    //   alt: 'Imagen del Hotel Olimar',
-    //   zona: 'Caletilla',
-    //   type: 'Hotel',
-    //   url: '/hoteles/olimar'
+    {
+      title: 'Hotel Olimar',
+      image: olimar,
+      alt: 'Imagen del Hotel Olimar',
+      zona: 'Caletilla',
+      type: 'Hotel',
+      url: '/hoteles/olimar'
 
-    // },
+    },
     {
       title: 'Hotel Donde mira el sol',
       image: sol,
@@ -71,24 +71,24 @@ export default function Hotelpage() {
     //   url: '/hoteles/rove'
 
     // },
-    // {
-    //   title: 'Bungalows Puerto Angel',
-    //   image: puertoAngel,
-    //   alt: 'Imagen de Bungalows Puerto Angel',
-    //   zona: 'Caletilla',
-    //   type: 'Bungalows',
-    //   url: '/hoteles/puertoAngel'
+    {
+      title: 'Bungalows Puerto Angel',
+      image: puertoAngel,
+      alt: 'Imagen de Bungalows Puerto Angel',
+      zona: 'Caletilla',
+      type: 'Bungalows',
+      url: '/hoteles/puertoAngel'
 
-    // },
-    // {
-    //   title: 'Bungalows Olivares',
-    //   image: olivares,
-    //   alt: 'Imagen de Bungalows Olivares',
-    //   zona: 'Caletilla',
-    //   type: 'Bungalows',
-    //   url: '/hoteles/bungalowsOlivares'
+    },
+    {
+      title: 'Bungalows Olivares',
+      image: olivares,
+      alt: 'Imagen de Bungalows Olivares',
+      zona: 'Caletilla',
+      type: 'Bungalows',
+      url: '/hoteles/bungalowsOlivares'
 
-    // },
+    },
     // {
     //   title: 'Hotel Del Valle',
     //   image: delValle,
