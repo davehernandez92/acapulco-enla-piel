@@ -29,7 +29,7 @@ export default function BentoSection() {
                         width={1600}
                         height={700}
                         alt='Imagen de hotel en Acapulco'
-                        className={`w-full h-full object-cover rounded-2xl ${styles.img__horizontal}`}
+                        className={`w-full h-full object-cover rounded-2xl min-h-[200px] ${styles.img__horizontal}`}
                     />
                     <div className={`absolute bottom-0 left-0 w-full h-full bg-black bg-opacity-50 rounded-2xl ${styles.card__overlay}`}>
                         <div className={`w-full h-full p-3 ${styles.card__txt}`}>
