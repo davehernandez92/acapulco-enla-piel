@@ -209,7 +209,7 @@ export default function HotelPage() {
                                     <Link
                                         title='Website'
                                         target='blank'
-                                        href={`mailto:${hotel.email}`}
+                                        href={`${hotel.website}`}
                                         className='flex gap-2 items-center text-[1.1rem] lg:text-[1.3rem] 
                                     lg:m-auto   
                                     w-fit

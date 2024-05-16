@@ -86,7 +86,7 @@
     {
       "id": "puertoAngel",
       "name": "Bungalows Puerto Angel",
-      "phoneNumber": "7444832158",
+      "phoneNumber": "7441251933",
       "whatsapp": "7441008028",
       "email": "reservacionespuertoangel@gmail.com",
       "website": "https://www.bungalowspuertoangel.com/",
@@ -103,7 +103,7 @@
     {
       "id": "bungalowsOlivares",
       "name": "Bungalows Olivares",
-      "phoneNumber": "7444826894",
+      "phoneNumber": "7444822305",
       "whatsapp": "7442166262",
       "email": "reservacionesolivares@gmail.com ",
       "website": "https://www.hotelolimar.com/",
@@ -115,6 +115,23 @@
         "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174882/hoteles/OLIVARES/2_ynenkb.webp",
         "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174882/hoteles/OLIVARES/3_repatc.webp",
         "https://res.cloudinary.com/dt3h0p239/image/upload/v1708174883/hoteles/OLIVARES/4_udetfr.webp"
+      ]
+    },
+    {
+      "id": "bungalowsMilagros",
+      "name": "Bungalows los Milagros",
+      "phoneNumber": "7444830277",
+      "whatsapp": "7443846585",
+      "email": "reservacioneslosmilagros@gmail.com",
+      "website": "https://www.bungalowslosmilagros.com",
+      "youtube": "https://www.youtube.com/watch?v=JqsQCDFkwUI",
+      "facebook": "https://www.facebook.com/bungalowslosmilagros",
+      "description": "Una alberca amplia, rodeado de naturaleza y frescura, la tranquilidad de la zona y bungalows perfectamente pensados para tu descanso, es lo que te ofrecen los Bungalows Los Milagros en Acapulco. Sin duda una excelente opción en la zona más tradicional de Acapulco, cerca de caleta y caletilla. Si quieres disfrutar de una zona tranquila y habitaciones frescas que te permitan vacacionar junto al canto de las aves que proliferan cerca de esta parte de Acapulco, no lo dudes, aquí mero está lo que buscas.",
+      "images": [
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1715865521/hoteles/milagros/1_ntm7b0.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1715865521/hoteles/milagros/2_zwyhcz.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1715865521/hoteles/milagros/3_iwcp6h.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1715865521/hoteles/milagros/4_cggms6.webp"
       ]
     },
     {

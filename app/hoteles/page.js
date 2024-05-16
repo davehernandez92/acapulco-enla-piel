@@ -9,6 +9,8 @@ import nautilus from '@/public/images/hoteles/nautilus/1.webp'
 import olimar from '@/public/images/hoteles/olimar/1.webp'
 import puertoAngel from '@/public/images/hoteles/bungalosPangel/1.jpg'
 import olivares from '@/public/images/hoteles/BUNGALOWS OLIVARES/1.jpg'
+import milagros from '@/public/images/hoteles/milagros/1.webp'
+
 import carlisa from '@/public/images/hoteles/HOTEL CARLISA/1.jpg'
 import sol from '@/public/images/hoteles/donde mira el sol/1.jpg'
 import delValle from '@/public/images/hoteles/HOTEL DEL VALLE/1.jpg'
@@ -53,24 +55,15 @@ export default function Hotelpage() {
       url: '/hoteles/dondeMiraElSol'
 
     },
-    // {
-    //   title: 'Hotel Carlisa',
-    //   image: carlisa,
-    //   alt: 'Imagen del Hotel Carlisa',
-    //   zona: 'Zona centro',
-    //   type: 'Hotel',
-    //   url: '/hoteles/carlisa'
+    {
+      title: 'Bungalows los Milagros',
+      image: milagros,
+      alt: 'Imagen de Bungalows los Milagros',
+      zona: 'Fracc. Las Playas',
+      type: 'Bungalows',
+      url: '/hoteles/bungalowsMilagros'
 
-    // },
-    // {
-    //   title: 'Hotel Rove',
-    //   image: rove,
-    //   alt: 'Imagen de Hotel Rove',
-    //   zona: 'Zona centro',
-    //   type: 'Hotel',
-    //   url: '/hoteles/rove'
-
-    // },
+    },
     {
       title: 'Bungalows Puerto Angel',
       image: puertoAngel,
@@ -89,6 +82,25 @@ export default function Hotelpage() {
       url: '/hoteles/bungalowsOlivares'
 
     },
+    // {
+    //   title: 'Hotel Carlisa',
+    //   image: carlisa,
+    //   alt: 'Imagen del Hotel Carlisa',
+    //   zona: 'Zona centro',
+    //   type: 'Hotel',
+    //   url: '/hoteles/carlisa'
+
+    // },
+    // {
+    //   title: 'Hotel Rove',
+    //   image: rove,
+    //   alt: 'Imagen de Hotel Rove',
+    //   zona: 'Zona centro',
+    //   type: 'Hotel',
+    //   url: '/hoteles/rove'
+
+    // },
+    
     // {
     //   title: 'Hotel Del Valle',
     //   image: delValle,
