@@ -41,7 +41,7 @@ export default function ResturantePage() {
       title: 'Fonda Esmeralda',
       image: esmeraldaF,
       alt: 'Imagen de Fonda Esmeralda',
-      zona: 'Puerto Marqués',
+      zona: 'Caletilla',
       type: 'Restaurante',
       url: '/restaurantes/fondaEsmeralda'
 
@@ -50,7 +50,7 @@ export default function ResturantePage() {
       title: 'Buffet Esmeralda',
       image: esmeraldaB,
       alt: 'Imagen de Buffet Esmeralda',
-      zona: 'Puerto Marqués',
+      zona: 'Caletilla',
       type: 'Restaurante',
       url: '/restaurantes/buffetEsmeralda'
 
