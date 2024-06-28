@@ -47,6 +47,40 @@
         "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813328/restaurantes/langosta/3_k95jxz.webp",
         "https://res.cloudinary.com/dt3h0p239/image/upload/v1708813329/restaurantes/langosta/6_z6zvgu.webp"
       ]
+    },
+    {
+      "id": "buffetEsmeralda",
+      "name": "Buffet Esmeralda",
+      "phoneNumber": "744 380 2200",
+      "email": null,
+      "website": null,
+      "youtube": "https://www.youtube.com/watch?v=3X27GuL3Mvk",
+      "facebook": "https://www.facebook.com/esmeralda.olivares.9279",
+      "description": "Si hay algo que a la gente que visita Acapulco le gusta, son los Buffets, y si hablamos de buenos Buffets sin duda Buffet Esmeralda está dentro del top 3 de los mejores buffets de Acapulco. Un excelente servicio en desayunos y comidas, precios muy buenos y atenciones que te hacen sentir muy a gusto, son algunas referencias que tenemos de primera mano con este agradable lugar que se ubica en el área de Caletilla. Si tienes hambre y buscas un lugar excelente para comer en compañía de tu familia o amigos, no dudes en venir a Buffet Esmeralda. ",
+      "images": [
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1719583726/restaurantes/buffet%20esmeralda/BUFFET_ESMERALDA_PORTADA_vii2hk.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1719583726/restaurantes/buffet%20esmeralda/BUFFET_ESMERALDA_4_vcl31n.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1719583726/restaurantes/buffet%20esmeralda/BUFFET_ESMERALDA_1_nmii4n.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1719583726/restaurantes/buffet%20esmeralda/BUFFET_ESMERALDA_3_gmztpn.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1719583726/restaurantes/buffet%20esmeralda/BUFFET_ESMERALDA_2_ch9hvw.webp"
+      ]
+    },
+    {
+      "id": "fondaEsmeralda",
+      "name": "Fonda Esmeralda",
+      "phoneNumber": "744 380 2200",
+      "email": null,
+      "website": null,
+      "youtube": "https://www.youtube.com/watch?v=Vwf77wj-4aE",
+      "facebook": "https://www.facebook.com/esmeralda.olivares.9279",
+      "description": "Una de las mejores opciones para comer en el mercadito de Caletilla (Santa Lucía), sin duda es la Fonda Esmeralda. Un sazón y un sabor excelentes, el personal te atiende con mucha amabilidad y los precios créeme que hay para todos los bolsillos. Hay pescados y mariscos, pero también platillos pensados para los peques o para aquellas personas que prefieren otras opciones aparte de mariscos. Tienes que probar los camarones 4x4 o el coco relleno, no lo dudes.",
+      "images": [
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1719585830/restaurantes/fonda%20esmeralda/1FONDA_ESMERALDA_1_drvzc9.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1719585830/restaurantes/fonda%20esmeralda/FONDA_ESMERALDA_2_qnmeqy.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1719585830/restaurantes/fonda%20esmeralda/FONDA_ESMERALDA_4_wdgrx3.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1719585830/restaurantes/fonda%20esmeralda/FONDA_ESMERALDA_PORTADA_ccqyfs.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1719585830/restaurantes/fonda%20esmeralda/FONDA_ESMERALDA_3_iubjrt.webp"
+      ]
     }
     
   ]

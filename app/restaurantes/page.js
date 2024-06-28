@@ -7,7 +7,8 @@ import restMobile from '@/public/images/heroRestM.webp'
 import restaurante from '@/public/images/heroResta.webp'
 import sotelo from '@/public/images/restaurantes/sotelo/1.webp'
 import langosta from '@/public/images/restaurantes/langosta/1.webp'
-import fondita from '@/public/images/restaurantes/lafondita/1.webp'
+import esmeraldaB from '@/public/images/restaurantes/esmeralda/buffet.webp'
+import esmeraldaF from '@/public/images/restaurantes/esmeralda/fonda.webp'
 
 import styles from '../styles/hoteles.module.css'
 
@@ -34,6 +35,24 @@ export default function ResturantePage() {
       zona: 'Puerto Marqués',
       type: 'Restaurante',
       url: '/restaurantes/laLangosta'
+
+    },
+    {
+      title: 'Fonda Esmeralda',
+      image: esmeraldaF,
+      alt: 'Imagen de Fonda Esmeralda',
+      zona: 'Puerto Marqués',
+      type: 'Restaurante',
+      url: '/restaurantes/fondaEsmeralda'
+
+    },
+    {
+      title: 'Buffet Esmeralda',
+      image: esmeraldaB,
+      alt: 'Imagen de Buffet Esmeralda',
+      zona: 'Puerto Marqués',
+      type: 'Restaurante',
+      url: '/restaurantes/buffetEsmeralda'
 
     },
     
