@@ -70,9 +70,19 @@ export default function Restaurante() {
 
                     </ul>
                     <div className='flex flex-col-reverse gap-8 lg:flex-row lg:mt-9 '>
-                        <p className='lg:w-2/3 lg:text-[18px] lg:pt-10'>
-                            {restaurante.description}
-                        </p>
+                        <div className='lg:w-2/3'>
+                            <p className='lg:text-[18px] lg:pt-10'>
+                                {restaurante.description}
+                            </p>
+                            {restaurante.horario && (
+                                <p className='mt-4'>{restaurante.horario}</p>
+                            )}
+                            {restaurante.precios && (
+                                <p className='mt-2'>{restaurante.precios}</p>
+                            )}
+                        </div>
+
+
                         <Image
                             src={restaurante.images[0]}
                             width={600}
@@ -92,6 +102,7 @@ export default function Restaurante() {
                     </div>
                 </div>
             </div>
+            
 
 
             <Carousel
