@@ -15,6 +15,7 @@ import styles from '../styles/hoteles.module.css'
 
 export default function ResturantePage() {
   const negocios = [
+    
 
     {
       title: 'Tacos Sotelo',

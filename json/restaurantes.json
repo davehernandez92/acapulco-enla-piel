@@ -83,6 +83,25 @@
         "https://res.cloudinary.com/dt3h0p239/image/upload/v1719585830/restaurantes/fonda%20esmeralda/FONDA_ESMERALDA_PORTADA_ccqyfs.webp",
         "https://res.cloudinary.com/dt3h0p239/image/upload/v1719585830/restaurantes/fonda%20esmeralda/FONDA_ESMERALDA_3_iubjrt.webp"
       ]
+    },
+    {
+      "id": "buffetLasPlayas",
+      "name": "Buffet Las Playas",
+      "phoneNumber": "55 1529 1273",
+      "whatsapp": "55 1529 1273",
+      "email": null,
+      "website": null,
+      "youtube": "https://www.youtube.com/watch?v=d-_a0tDSCp8",
+      "facebook": "https://www.facebook.com/profile.php?id=100063637704157",
+      "description": "Cuando hablamos de buenos servicios de Buffet en Acapulco, sin duda tienes que anotar en la lista a Buffet Las Playas. Uno de los restaurantes más visitados en Acapulco y por una buena razón: excelente servicio, buenos precios y comidas que te van a dejar más que contento y satisfecho. Si estás disfrutando con tu familia o amigos las playas de Caleta, ¡no olvides visitarlos!",
+      "images": [
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1720646887/restaurantes/buffet%20las%20playas/304019441_489825159815403_3180821743507999081_n_jinfd3.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1720646887/restaurantes/buffet%20las%20playas/449526222_1000510898746824_1678173323513278845_n_cgvx2j.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1720646886/restaurantes/buffet%20las%20playas/449768032_1002076708590243_3424466213877326911_n_dtyduz.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1720646886/restaurantes/buffet%20las%20playas/449705766_1002075885256992_2297858879723880072_n_jqgw9u.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1720646886/restaurantes/buffet%20las%20playas/447296348_977285684402679_8363828932545074325_n_soct3e.webp",
+        "https://res.cloudinary.com/dt3h0p239/image/upload/v1720646886/restaurantes/buffet%20las%20playas/449694788_1002076398590274_1442078625556495520_n_d1g8bp.webp"
+      ]
     }
     
   ]

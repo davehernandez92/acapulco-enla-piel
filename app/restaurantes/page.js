@@ -9,6 +9,8 @@ import sotelo from '@/public/images/restaurantes/sotelo/1.webp'
 import langosta from '@/public/images/restaurantes/langosta/1.webp'
 import esmeraldaB from '@/public/images/restaurantes/esmeralda/buffet.webp'
 import esmeraldaF from '@/public/images/restaurantes/esmeralda/fonda.webp'
+import lasPlayas from '@/public/images/restaurantes/lasPlayas/11.webp'
+
 
 import styles from '../styles/hoteles.module.css'
 
@@ -53,6 +55,15 @@ export default function ResturantePage() {
       zona: 'Caletilla',
       type: 'Restaurante',
       url: '/restaurantes/buffetEsmeralda'
+
+    },
+    {
+      title: 'Buffet las Playas',
+      image: lasPlayas,
+      alt: 'Imagen de Buffet las Playas',
+      zona: 'Caleta & Caletilla',
+      type: 'Restaurante',
+      url: '/restaurantes/buffetLasPlayas'
 
     },
     
