@@ -39,6 +39,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={` ${headingFont.variable} ${inter.variable}`}>
     <head>
       <Adsense pid="4044386539932680"/>
+      <meta name="google-adsense-account" content="ca-pub-4044386539932680"></meta>
     </head>
       
       <body>
