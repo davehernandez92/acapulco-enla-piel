@@ -2,7 +2,7 @@ import { Inter, Ubuntu } from "next/font/google";
 import "./globals.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
-import Adsense from "./components/adsense";
+import Script from "next/script";
 
 const inter = Inter({
   subsets: ['latin'],
@@ -37,11 +37,23 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={` ${headingFont.variable} ${inter.variable}`}>
-    <head>
-      <Adsense pid="4044386539932680"/>
-      <meta name="google-adsense-account" content="ca-pub-4044386539932680"></meta>
-    </head>
-      
+
+      <head>
+        <Script
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=G-HNRP3M58MY`}
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config',   
+ 'G-HNRP3M58MY');
+          `}
+        </Script>
+      </head>
+
       <body>
         <Header />
         {children}
